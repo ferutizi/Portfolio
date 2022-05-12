@@ -1,0 +1,14 @@
+@import './scss/variables.scss';
+
+.App {
+    text-align: center;
+}
+
+.proyect__container {
+    background-color: #555;
+    border: 1px solid $secondary;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
