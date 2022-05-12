@@ -1,31 +1,6 @@
 @import '../scss/variables';
+@import '../scss/mixins';
 
 .proyect {
-    margin: 0; 
-    background-color: $primary;
-
-    .title {
-        color: $secondary;
-    }
-
-    .img {
-        max-width: 15rem;
-        height: auto;
-        border-radius: 5px;
-        box-shadow: 4px 4px 8px black;
-        filter: hue-rotate(198deg);
-        transition: all ease 0.3s;
-        opacity: 0.85;
-        &:hover {
-            filter: none;
-            cursor: pointer;
-            opacity: 1;
-            transform: scale(1.05);
-        }
-    }
-
-    .text {
-        color: $whiteText2;
-        font-size: 0.85rem;
-    }
+    @include style-proyect;
 }

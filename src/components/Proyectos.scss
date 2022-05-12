@@ -1,0 +1,11 @@
+@import '../scss/variables';
+@import '../scss/mixins';
+
+.proyect__container {
+    @include style-proyect__container;
+    border: 1px solid $secondary;
+}
+
+.more-proyects {
+    @include style-proyect__container;
+}

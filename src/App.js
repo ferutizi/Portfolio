@@ -1,7 +1,7 @@
 import './App.scss';
-import Proyect from './components/Proyect';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Proyectos from './components/Proyectos';
 
 function App() {
   return (
@@ -11,11 +11,8 @@ function App() {
       <h1>Fernando Utizi</h1>
       <h2>Front-end Developer</h2>
       <h5>Soy un apasionado de la tecnología, la creatividad y el aprendizaje</h5>
-      <div className='proyect__container'>
-        <Proyect></Proyect>
-        <Proyect></Proyect>
-        <Proyect></Proyect>
-      </div>
+      
+      <Proyectos />
 
       <div className='tecnologies'>
         <img></img>
