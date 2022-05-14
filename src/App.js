@@ -7,13 +7,12 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-      
       <h1>Fernando Utizi</h1>
       <h2>Front-end Developer</h2>
       <h5>Soy un apasionado de la tecnología, la creatividad y el aprendizaje</h5>
       
       <Proyectos />
-
+      
       <div className='tecnologies'>
         <img></img>
       </div>

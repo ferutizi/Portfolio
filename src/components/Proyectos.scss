@@ -9,3 +9,17 @@
 .more-proyects {
     @include style-proyect__container;
 }
+
+.button {
+    @include button-primary;
+    position: relative;
+    bottom: -0.75rem;
+}
+
+.proyect {
+    @include style-proyect;
+}
+
+li {
+    display: flex;
+}
