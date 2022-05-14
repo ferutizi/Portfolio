@@ -20,6 +20,6 @@
     @include style-proyect;
 }
 
-li {
-    display: flex;
+.text__container {
+    max-width: 300px;
 }

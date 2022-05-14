@@ -12,20 +12,20 @@ const Proyectos = () => {
 
     const proyectos = [
         {
-            title: "hola",
+            title: "Proyecto1",
             img: "supermarket.jpg",
-            text: `Lorem ipsum, dolor sit amet ${<br />}consectetur adipisicing elit. ${<br />} Obcaecati, in.`,
+            text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, in.`,
             icon1: "",
         },
         {
-            title: "titulo2",
-            img: "",
+            title: "Proyecto2",
+            img: "supermarket.jpg",
             text: "",
             icon1: "",
         },
         {
-            title: "",
-            img: "",
+            title: "Proyecto3",
+            img: "supermarket.jpg",
             text: "",
             icon1: "",
         }
@@ -34,45 +34,18 @@ const Proyectos = () => {
 
     return(
         <div className='proyect__container'>
-            <ul>
                 {proyectos.map(item => 
                     <div className='proyect'>
                         <h3 className='title'>{item.title}</h3>
-                        <p>../img/{item.img}</p>
-{/*                         <img className='img' src={require('../img/'+ item.img)}></img> */}
-                        <p className='text'>{item.text}</p>
+                        <img className='img' src={require(`../img/${item.img}`)}></img>
+                        <div className='text__container'>
+                            <p className='text'>{item.text}</p>
+                        </div>
                         <div className='icons'>
                             <img></img>
                         </div>
                     </div>
                 )}
-            </ul>
-            <div className='proyect'>
-                <h3 className='title'>Proyecto 1</h3>
-                <img className='img' src={supermarket}></img>
-                <p className='text'>Lorem ipsum, dolor sit amet<br />consectetur adipisicing elit. <br /> Obcaecati, in.</p>
-                <div className='icons'>
-                    <img></img>
-                </div>
-            </div>
-
-            <div className='proyect'>
-                <h3 className='title'>Proyecto 2</h3>
-                <img className='img' src={supermarket}></img>
-                <p className='text'>Lorem ipsum, dolor sit amet<br />consectetur adipisicing elit. <br /> Obcaecati, in.</p>
-                <div className='icons'>
-                    <img></img>
-                </div>
-            </div>
-
-            <div className='proyect'>
-                <h3 className='title'>Proyecto 3</h3>
-                <img className='img' src={supermarket}></img>
-                <p className='text'>Lorem ipsum, dolor sit amet<br />consectetur adipisicing elit. <br /> Obcaecati, in.</p>
-                <div className='icons'>
-                    <img></img>
-                </div>
-            </div>
 
             {visible &&
                 <div className="more-proyects">
