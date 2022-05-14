@@ -1,5 +1,4 @@
 import './Proyectos.scss'
-import supermarket from "../img/supermarket.jpg"
 
 import { useState } from 'react'
 
@@ -10,23 +9,44 @@ const Proyectos = () => {
 
     const ver = visible
 
-    const proyectos = [
+    const proyects = [
         {
-            title: "Proyecto1",
-            img: "supermarket.jpg",
-            text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, in.`,
+            title: "Rick and Morty",
+            img: "apisearch.jpg",
+            text: "buscador de imagenes consumiendo la Api de Rick and Morty",
             icon1: "",
         },
         {
-            title: "Proyecto2",
+            title: "Supermarket-list",
             img: "supermarket.jpg",
-            text: "",
+            text: 'Lista de supermercado, estilo "to do" pudiendo agregar y eliminar productos',
             icon1: "",
         },
         {
-            title: "Proyecto3",
+            title: "compound interest calculator",
+            img: "calculator.jpg",
+            text: "calculadora de interés compuesto",
+            icon1: "",
+        }
+    ]
+
+    const moreProyects = [
+        {
+            title: "Rick and Morty",
+            img: "apisearch.jpg",
+            text: "buscador de imagenes consumiendo la Api de Rick and Morty",
+            icon1: "",
+        },
+        {
+            title: "Supermarket-list",
             img: "supermarket.jpg",
-            text: "",
+            text: 'Lista de supermercado, estilo "to do" pudiendo agregar y eliminar productos',
+            icon1: "",
+        },
+        {
+            title: "compound interest calculator",
+            img: "calculator.jpg",
+            text: "calculadora de interés compuesto",
             icon1: "",
         }
     ]
@@ -34,13 +54,11 @@ const Proyectos = () => {
 
     return(
         <div className='proyect__container'>
-                {proyectos.map(item => 
+                {proyects.map(item => 
                     <div className='proyect'>
                         <h3 className='title'>{item.title}</h3>
                         <img className='img' src={require(`../img/${item.img}`)}></img>
-                        <div className='text__container'>
-                            <p className='text'>{item.text}</p>
-                        </div>
+                        <p className='text'>{item.text}</p>
                         <div className='icons'>
                             <img></img>
                         </div>
@@ -50,32 +68,16 @@ const Proyectos = () => {
             {visible &&
                 <div className="more-proyects">
                     
+                    {moreProyects.map(item => 
                     <div className='proyect'>
-                        <h3 className='title'>Proyecto 4</h3>
-                        <img className='img' src={supermarket}></img>
-                        <p className='text'>Lorem ipsum, dolor sit amet<br />consectetur adipisicing elit. <br /> Obcaecati, in.</p>
+                        <h3 className='title'>{item.title}</h3>
+                        <img className='img' src={require(`../img/${item.img}`)}></img>
+                        <p className='text'>{item.text}</p>
                         <div className='icons'>
                             <img></img>
                         </div>
                     </div>
-
-                    <div className='proyect'>
-                        <h3 className='title'>Proyecto 5</h3>
-                        <img className='img' src={supermarket}></img>
-                        <p className='text'>Lorem ipsum, dolor sit amet<br />consectetur adipisicing elit. <br /> Obcaecati, in.</p>
-                        <div className='icons'>
-                            <img></img>
-                        </div>
-                    </div>
-
-                    <div className='proyect'>
-                        <h3 className='title'>Proyecto 6</h3>
-                        <img className='img' src={supermarket}></img>
-                        <p className='text'>Lorem ipsum, dolor sit amet<br />consectetur adipisicing elit. <br /> Obcaecati, in.</p>
-                        <div className='icons'>
-                            <img></img>
-                        </div>
-                    </div>
+                )}
 
                 </div>
             }

@@ -12,7 +12,7 @@
         height: auto;
         border-radius: 5px;
         box-shadow: 4px 4px 8px black;
-        filter: hue-rotate(198deg);
+        filter: sepia(0.8) hue-rotate(346deg);
         transition: all ease 0.3s;
         opacity: 0.85;
         &:hover {
@@ -26,6 +26,8 @@
     .text {
         color: $whiteText2;
         font-size: 0.85rem;
+        max-width: 240px;
+        margin: auto;
     }
 }
 
