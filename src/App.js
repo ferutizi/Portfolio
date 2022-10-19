@@ -1,21 +1,40 @@
 import './App.scss';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import Proyectos from './components/Proyectos';
+import Proyects from './components/Proyects';
 
 function App() {
-  return (
-    <div className='App'>
-      <Nav />
+
+  const Presentation = () => {
+    return(
+    <div>
       <h1>Fernando Utizi</h1>
       <h2>Front-end Developer</h2>
       <h5>Soy un apasionado de la tecnología, la creatividad y el aprendizaje</h5>
-      
-      <Proyectos />
-      
-      <div className='tecnologies'>
-        <img></img>
+    </div>
+    )
+  }
+  const Tecnologies = () => {
+    return(
+    <>
+      <h3>Tecnologías</h3>
+      <div style={{display: 'flex', gap: 20, justifyContent: 'center'}}>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JS</p>
+        <p>React</p>
+        <p></p>
       </div>
+    </>
+    )
+  }
+
+  return (
+    <div className='App'>
+      <Nav />
+      <Presentation />
+      <Proyects />     
+      <Tecnologies />
       <h6>Mas sobre mí</h6>
       <Footer>
         <h5>Contactame</h5>

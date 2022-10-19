@@ -13,8 +13,8 @@
         border-radius: 5px;
         box-shadow: 4px 4px 8px black;
         filter: sepia(0.8) hue-rotate(346deg);
-        transition: all ease 0.3s;
-        opacity: 0.85;
+        transition: none;
+        opacity: 0.85; 
         &:hover {
             filter: none;
             cursor: pointer;

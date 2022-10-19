@@ -1,21 +1,21 @@
-import './Nav.scss'
+import './Nav.scss';
 
 const Nav = () => {
     return(
         <nav className="nav">
                 <p className="logo">Fernando Utizi</p>
             <div className="sections">
-                <p className='click'>proyectos</p>
-                <p className='click'>Sobre mí</p>
-                <p className='click'>Contáctame</p>  
+                <p className='nav--button'>proyectos</p>
+                <p className='nav--button'>Sobre mí</p>
+                <p className='nav--button'>Contáctame</p>  
             </div>
             <div className="icons">
-                <p className='click'>Git</p> 
-                <p className='click'>Linkedin</p> 
-                <p className='click'>NightMode</p> 
+                <p className='nav--button'>G</p> 
+                <p className='nav--button'>L</p> 
+                <p className='nav--button'>N</p> 
             </div>
         </nav>
     )
 }
 
-export default Nav
+export default Nav;

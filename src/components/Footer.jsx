@@ -1,4 +1,4 @@
-import './Footer'
+import './Footer';
 
 const Footer = () => {
     return(
@@ -8,4 +8,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
