@@ -10,44 +10,50 @@ const Proyects = () => {
 
     const proyects = [
         {
+            id: 1,
             title: "Rick and Morty",
-            img: "apisearch.jpg",
-            text: "buscador de imagenes consumiendo la Api de Rick and Morty",
+            img: "1.jpg",
+            text: "Auscador de imagenes consumiendo la Api de Rick and Morty",
             icon1: "",
         },
         {
+            id: 2,
+            title: "Ecommerce",
+            img: "5.jpg",
+            text: "Aplicación de ecommerce",
+            icon1: "",
+        },
+        {
+            id: 3,
             title: "Supermarket-list",
-            img: "supermarket.jpg",
-            text: 'Lista de supermercado, estilo "to do" pudiendo agregar y eliminar productos',
-            icon1: "",
-        },
-        {
-            title: "compound interest calculator",
-            img: "calculator.jpg",
-            text: "calculadora de interés compuesto",
+            img: "2.jpg",
+            text: "Lista de supermercado, estilo 'to do' pudiendo agregar y eliminar productos",
             icon1: "",
         }
     ];
 
     const moreProyects = [
         {
-            title: "Rick and Morty",
-            img: "apisearch.jpg",
+            id: 4,
+            title: "Compound interest calculator",
+            img: "3.jpg",
             text: "buscador de imagenes consumiendo la Api de Rick and Morty",
             icon1: "",
         },
         {
-            title: "Supermarket-list",
-            img: "supermarket.jpg",
-            text: 'Lista de supermercado, estilo "to do" pudiendo agregar y eliminar productos',
+            id: 5,
+            title: "Small PDF page",
+            img: "4.jpg",
+            text: 'Página web estática',
             icon1: "",
         },
         {
-            title: "compound interest calculator",
-            img: "calculator.jpg",
-            text: "calculadora de interés compuesto",
+            id: 6,
+            title: "Small PDF page",
+            img: "4.jpg",
+            text: 'Página web estática',
             icon1: "",
-        }
+        },
     ];
 
 
@@ -56,11 +62,11 @@ const Proyects = () => {
             <h3>Proyectos</h3>
             <div className='proyect__container'>
                     {proyects.map(item => 
-                        <div className='proyect'>
-                            <h3 className='title'>{item.title}</h3>
-                            <img className='img' src={require(`../img/${item.img}`)} alt={proyects.title}></img>
-                            <p className='text'>{item.text}</p>
-                            <div className='icons'>
+                        <div key={item.id} className='proyect__proyect'>
+                            <h3 className='proyect__title'>{item.title}</h3>
+                            <img className='proyect__img' src={require(`../img/${item.img}`)} alt={proyects.title}></img>
+                            <p className='proyect__text'>{item.text}</p>
+                            <div className='proyect__icons'>
                                 <img></img>
                             </div>
                         </div>
@@ -70,11 +76,11 @@ const Proyects = () => {
                     <div className="more-proyects">
                         
                         {moreProyects.map(item => 
-                        <div className='proyect'>
-                            <h3 className='title'>{item.title}</h3>
-                            <img className='img' src={require(`../img/${item.img}`)} alt={moreProyects.title}></img>
-                            <p className='text'>{item.text}</p>
-                            <div className='icons'>
+                        <div className='proyect__proyect'>
+                            <h3 className='proyect__title'>{item.title}</h3>
+                            <img className='proyect__img' src={require(`../img/${item.img}`)} alt={moreProyects.title}></img>
+                            <p className='proyect__text'>{item.text}</p>
+                            <div className='proyect__icons'>
                                 <img></img>
                             </div>
                         </div>

@@ -2,28 +2,30 @@
     margin: 0; 
     background-color: $primary;
 
-    .title {
+    .proyect__title {
         color: $secondary;
     }
 
-    .img {
-        max-width: 15rem;
+    .proyect__img {
+        width: 15rem;
         margin: 0.3rem 1.5rem;
-        height: auto;
+        height: 10rem;
         border-radius: 5px;
         box-shadow: 4px 4px 8px black;
         filter: sepia(0.8) hue-rotate(346deg);
         transition: none;
         opacity: 0.85; 
+        border: 2px solid rgba(0,0,0,0);
         &:hover {
             filter: none;
             cursor: pointer;
             opacity: 1;
+            border: 2px solid $secondary;
             transform: scale(1.05);
         }
     }
 
-    .text {
+    .proyect__text {
         color: $whiteText2;
         font-size: 0.85rem;
         max-width: 240px;
