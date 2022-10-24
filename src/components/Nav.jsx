@@ -10,9 +10,10 @@ const Nav = () => {
                 <p className='nav--button'>Contáctame</p>  
             </div>
             <div className="icons">
-                <p className='nav--button'>G</p> 
-                <p className='nav--button'>L</p> 
-                <p className='nav--button'>N</p> 
+                <img className='nav--icon' src={require('../img/icons/github_white.png')}></img>
+                <img className='nav--icon' src={require('../img/icons/linkedin_white.png')}></img>
+                <img className='nav--icon' src={require('../img/icons/dark_white.png')}></img>
+                {/* github linkedin nightmode */}
             </div>
         </nav>
     )
