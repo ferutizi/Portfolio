@@ -13,7 +13,7 @@ const Proyects = () => {
             id: 1,
             title: "Rick and Morty",
             img: "1.jpg",
-            text: "Auscador de imagenes consumiendo la Api de Rick and Morty",
+            text: "Buscador de imagenes consumiendo la Api de Rick and Morty",
             icon1: "",
         },
         {
@@ -27,7 +27,7 @@ const Proyects = () => {
             id: 3,
             title: "Supermarket-list",
             img: "2.jpg",
-            text: "Lista de supermercado, estilo 'to do' pudiendo agregar y eliminar productos",
+            text: 'Lista de supermercado estilo "to do"',
             icon1: "",
         }
     ];
@@ -37,7 +37,7 @@ const Proyects = () => {
             id: 4,
             title: "Compound interest calculator",
             img: "3.jpg",
-            text: "buscador de imagenes consumiendo la Api de Rick and Morty",
+            text: "Calculadora de interés compuesto",
             icon1: "",
         },
         {
