@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Rick and Morty",
+        "img": "1.jpg",
+        "text": "Buscador de imagenes consumiendo la Api de Rick and Morty",
+        "icon1": ""
+    },
+    {
+        "id": 2,
+        "title": "Ecommerce",
+        "img": "5.jpg",
+        "text": "Aplicación de ecommerce",
+        "icon1": ""
+    },
+    {
+        "id": 3,
+       "title": "Supermarket-list",
+        "img": "2.jpg",
+        "text": "Lista de supermercado estilo 'to do'",
+        "icon1": ""
+    }
+]
