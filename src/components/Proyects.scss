@@ -6,6 +6,30 @@
     border: 1px solid $secondary;
 }
 
+.proyect__title {
+    color: $secondary;
+    margin-bottom: 8px;
+}
+
+.proyect__img {
+    width: 15rem;
+    margin: 0.3rem 1.5rem;
+    height: 10rem;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px black;
+    filter: sepia(0.8) hue-rotate(346deg);
+    transition: none;
+    opacity: 0.85; 
+    border: 2px solid rgba(0,0,0,0);
+    &:hover {
+        filter: none;
+        cursor: pointer;
+        opacity: 1;
+        border: 2px solid $secondary;
+        transform: scale(1.05);
+    }
+}
+
 .more-proyects {
     @include style-proyect__container;
 }
