@@ -23,7 +23,26 @@ const Proyects = () => {
                             </img>
                             <p className='proyect__text'>{item.text}</p>
                             <div className='proyect__icons'>
-                                <img></img>
+                                <img
+                                    className='proyect__icon'
+                                    src={require(`../img/icons/${item.icon1}.png`)}
+                                    alt={proyects.icon1}>
+                                </img>
+                                <img
+                                    className='proyect__icon'
+                                    src={require(`../img/icons/${item.icon2}.png`)}
+                                    alt={proyects.icon1}>
+                                </img>
+                                <img
+                                    className='proyect__icon'
+                                    src={require(`../img/icons/${item.icon3}.png`)}
+                                    alt={proyects.icon1}>
+                                </img>
+                                <img
+                                    className='proyect__icon'
+                                    src={require(`../img/icons/${item.icon4}.png`)}
+                                    alt={proyects.icon1}>
+                                </img>
                             </div>
                         </div>
                     )}
