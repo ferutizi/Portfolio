@@ -1,6 +1,7 @@
 @import '../scss/variables';
 
 .nav {
+    background-color: $primary;
     display: flex;
     position: fixed;
     z-index: 1;
@@ -8,14 +9,13 @@
     max-width: 100vw;
     width: 92%;
     justify-content: space-between;
-    background-color: $primary;
+    align-items: center;
     padding: 10px 60px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-    align-items: center;
 
     .logo {
         display: flex;
-        margin: 0;
+        margin: 0 2rem;
         color: $secondary;
         font-size: 1rem;
         font-weight: 600;
@@ -35,9 +35,26 @@
     }
 
     .nav--icon {
+        display: flex;
+        align-items: center;
         width: 30px;
         height: auto;
         margin: 0 10px;
+        &:hover {
+            filter: brightness(0) saturate(100%) invert(57%)sepia(100%) 
+                    saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%);
+        }
+    }
+
+    .nav--group {
+        display: flex;
+        align-items: center;
+        margin: 0 1rem,
+    }
+
+    .nav--darkmode {
+        display: flex;
+        align-items: center;
     }
 
     .nav--button {
@@ -47,7 +64,6 @@
         color: $whiteText;
         padding: 3px 6px;
         border-radius: 4px;
-        transition: 0.4s ease;
         text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
         font-size: 1rem;
         &:hover {

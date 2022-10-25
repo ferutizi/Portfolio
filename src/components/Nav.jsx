@@ -10,9 +10,17 @@ const Nav = () => {
                 <p className='nav--button'>Contáctame</p>  
             </div>
             <div className="icons">
-                <img className='nav--icon' src={require('../img/icons/github_white.png')}></img>
-                <img className='nav--icon' src={require('../img/icons/linkedin_white.png')}></img>
-                <img className='nav--icon' src={require('../img/icons/dark_white.png')}></img>
+                <div className='nav--group'>
+                    <a href='https://github.com/ferutizi' target='_blank'>
+                        <img className='nav--icon' src={require('../img/icons/github.png')}></img>
+                    </a>
+                    <a>
+                        <img className='nav--icon' src={require('../img/icons/linkedin.png')}></img>
+                    </a>
+                </div>
+                <div className='nav--darkmode'>
+                    <img className='nav--icon' src={require('../img/icons/dark.png')}></img>
+                </div>
                 {/* github linkedin nightmode */}
             </div>
         </nav>
