@@ -4,29 +4,32 @@
         "title": "Rick and Morty",
         "img": "1.jpg",
         "text": "Buscador de imagenes consumiendo una API",
-        "icon1": "html",
-        "icon2": "js",
-        "icon3": "react",
-        "icon4": "bootstrap"
+        "icon1": "react",
+        "icon2": "css",
+        "icon3": "void",
+        "repository": "https://github.com/ferutizi/Buscador-img-react",
+        "deploy": "https://ferutizi.github.io/Buscador-img-react/"
     },
     {
         "id": 2,
         "title": "Ecommerce",
         "img": "5.jpg",
         "text": "Aplicación de ecommerce",
-        "icon1": "html",
-        "icon2": "js",
-        "icon3": "react",
-        "icon4": "bootstrap"
+        "icon1": "react",
+        "icon2": "redux",
+        "icon3": "sass",
+        "repository": "https://github.com/ferutizi/e-commerce",
+        "deploy": ""
     },
     {
         "id": 3,
        "title": "Supermarket-list",
         "img": "2.jpg",
-        "text": "Lista de supermercado estilo 'to do'",
-        "icon1": "html",
-        "icon2": "js",
-        "icon3": "react",
-        "icon4": "bootstrap"
+        "text": "Lista de supermercado estilo to do",
+        "icon1": "react",
+        "icon2": "sass",
+        "icon3":"void",
+        "repository": "https://github.com/ferutizi/supermarket-list",
+        "deploy": "https://ferutizi.github.io/supermarket-list/"
     }
 ]

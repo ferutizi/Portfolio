@@ -1,0 +1,7 @@
+@import '../scss/mixins';
+
+.icon {
+    @include button-icon;
+    height: 18px;
+    width: auto;
+}

@@ -1,6 +1,4 @@
 @mixin style-proyect {
-    
-    align-items: center;
 
     .proyect__text {
         color: $whiteText2;
@@ -8,6 +6,20 @@
         max-width: 240px;
         min-height: 34px;
         margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@mixin button-icon {
+    display: flex;
+    align-content: center;
+    margin: 0 10px;
+    cursor: pointer;
+    &:hover {
+        filter: brightness(0) saturate(100%) invert(57%) sepia(100%) 
+                saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%);
     }
 }
 

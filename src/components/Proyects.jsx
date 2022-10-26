@@ -2,6 +2,8 @@ import './Proyects.scss';
 import { useState } from 'react';
 import proyects from '../Proyects.json'
 import moreProyects from '../MoreProyects.json'
+import Icon from './Icon';
+import ProyectsRepo from './ProyectsRepo';
 
 
 
@@ -23,26 +25,26 @@ const Proyects = () => {
                             </img>
                             <p className='proyect__text'>{item.text}</p>
                             <div className='proyect__icons'>
-                                <img
-                                    className='proyect__icon'
-                                    src={require(`../img/icons/${item.icon1}.png`)}
-                                    alt={proyects.icon1}>
-                                </img>
-                                <img
-                                    className='proyect__icon'
-                                    src={require(`../img/icons/${item.icon2}.png`)}
-                                    alt={proyects.icon1}>
-                                </img>
-                                <img
-                                    className='proyect__icon'
-                                    src={require(`../img/icons/${item.icon3}.png`)}
-                                    alt={proyects.icon1}>
-                                </img>
-                                <img
-                                    className='proyect__icon'
-                                    src={require(`../img/icons/${item.icon4}.png`)}
-                                    alt={proyects.icon1}>
-                                </img>
+                                <div className='proyect__icons--left'>
+                                    <Icon 
+                                        src={require(`../img/icons/${item.icon1}.png`)}
+                                        alt={proyects.icon1}
+                                    />
+                                    <Icon 
+                                        src={require(`../img/icons/${item.icon2}.png`)}
+                                        alt={proyects.icon2}
+                                    />
+                                    <Icon 
+                                        src={require(`../img/icons/${item.icon3}.png`)}
+                                        alt={proyects.icon3}
+                                    />
+                                </div>
+                                <div className='proyect__icons--right'>
+                                    <ProyectsRepo
+                                        repository={item.repository}
+                                        deploy={item.deploy}
+                                    />
+                                </div>
                             </div>
                         </div>
                     )}
@@ -51,7 +53,7 @@ const Proyects = () => {
                     <div className="more-proyects">
                         
                         {moreProyects.map(item => 
-                        <div className='proyect__proyect'>
+                        <div key={item.id} className='proyect__proyect'>
                             <h3 className='proyect__title'>{item.title}</h3>
                             <img
                                 className='proyect__img'
@@ -60,7 +62,28 @@ const Proyects = () => {
                             </img>
                             <p className='proyect__text'>{item.text}</p>
                             <div className='proyect__icons'>
-                                <img></img>
+                                <div className='proyect__icons--left'>
+                                    <Icon 
+                                            src={require(`../img/icons/${item.icon1}.png`)}
+                                            alt={moreProyects.icon1}
+                                        />
+                                    <Icon 
+                                        src={require(`../img/icons/${item.icon2}.png`)}
+                                        alt={moreProyects.icon2}
+                                    />
+                                    <Icon 
+                                        src={require(`../img/icons/${item.icon3}.png`)}
+                                        alt={moreProyects.icon3}
+                                    />
+                                    
+                                </div>
+                                <div className='proyect__icons--right'>
+                                    <ProyectsRepo
+                                        repository={item.repository}
+                                        deploy={item.deploy}
+                                    />
+                                </div>
+                                
                             </div>
                         </div>
                     )}

@@ -1,4 +1,5 @@
 @import '../scss/variables';
+@import '../scss/mixins';
 
 .nav {
     background-color: $primary;
@@ -13,9 +14,9 @@
 
     .logo {
         display: flex;
-        margin: 10px 0px 10px 60px;
+        margin: 0 0 0 60px;
         color: $secondary;
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-weight: 600;
         text-shadow: 1px 2px 5px rgba(0, 0, 0, 1);
     }
@@ -33,15 +34,9 @@
     }
 
     .nav--icon {
-        display: flex;
-        align-items: center;
+        @include button-icon;
         width: 30px;
         height: auto;
-        margin: 0 10px;
-        &:hover {
-            filter: brightness(0) saturate(100%) invert(57%) sepia(100%) 
-                    saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%);
-        }
     }
 
     .nav--group {

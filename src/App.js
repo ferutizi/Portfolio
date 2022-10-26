@@ -32,12 +32,12 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-      <body className='body'>
+      <div className='body'>
         <Presentation />
         <Proyects />     
         <Tecnologies />
         <h6>Mas sobre mí</h6>
-      </body>
+      </div>
       <Footer>
           <h5>Contactame</h5>
           <form></form>

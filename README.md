@@ -13,6 +13,7 @@ podes ver mi porfolio haciendo click [ACA](https://github.com/)
 - [ ] agregar mas sobre mi
 - [ ] Implementar formulario de contacto
 - [ ] Implementar Nightmode
+- [ ] Responsive design
 
 
 ## Futuras iteraciones

@@ -54,7 +54,17 @@
 
 .proyect__icons {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 10px;
+}
+
+.proyect__icons--left {
+    display: flex;
+}
+
+.proyect__icons--right {
+    display: flex;
+    align-items: center;
 }

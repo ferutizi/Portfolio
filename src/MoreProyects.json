@@ -4,29 +4,32 @@
         "title": "Compound interest calculator",
         "img": "3.jpg",
         "text": "Calculadora de interés compuesto",
-        "icon1": "html",
-        "icon2": "js",
-        "icon3": "react",
-        "icon4": "bootstrap"
+        "icon1": "react",
+        "icon2": "css",
+        "icon3": "void",
+        "repository": "https://github.com/ferutizi/calculadora-Interes-compuesto-react",
+        "deploy": "https://ferutizi.github.io/calculadora-Interes-compuesto-react/"
     },
     {
         "id": 5,
         "title": "Small PDF page",
         "img": "4.jpg",
         "text": "Página web estática",
-        "icon1": "github",
-        "icon2": "react",
-        "icon3": "SQL",
-        "icon4": "mySQL"
+        "icon1": "html",
+        "icon2": "bootstrap",
+        "icon3": "void",
+        "repository": "https://github.com/ferutizi/smallPDF-page",
+        "deploy": "https://ferutizi.github.io/smallPDF-page/"
     },
     {
         "id": 6,
         "title": "Small PDF page",
         "img": "4.jpg",
         "text": "Página web estática",
-        "icon1": "",
-        "icon2": "",
-        "icon3": "",
-        "icon4": ""
+        "icon1": "html",
+        "icon2": "bootstrap",
+        "icon3": "void",
+        "repository": "https://github.com/ferutizi/smallPDF-page",
+        "deploy": "https://ferutizi.github.io/smallPDF-page/"
     }
 ]
