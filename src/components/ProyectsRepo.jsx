@@ -1,6 +1,6 @@
 import './ProyectsRepo.scss';
 
-const ProyectsRepo = ({repository, deploy}) => {
+const ProyectsRepo = ({ repository, deploy }) => {
     return(
         <>
             <a href={repository} target='_blank'>

@@ -2,6 +2,7 @@ import './App.scss';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Proyects from './components/Proyects';
+import Tecnologies from './components/Tecnologies';
 
 function App() {
 
@@ -12,20 +13,6 @@ function App() {
       <h2>Front-end Developer</h2>
       <h5>Soy un apasionado de la tecnología, la creatividad y el aprendizaje</h5>
     </div>
-    )
-  }
-  const Tecnologies = () => {
-    return(
-    <>
-      <h3>Tecnologías</h3>
-      <div style={{display: 'flex', gap: 20, justifyContent: 'center'}}>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JS</p>
-        <p>React</p>
-        <p></p>
-      </div>
-    </>
     )
   }
 

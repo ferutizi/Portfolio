@@ -1,4 +1,4 @@
-const Icon = ({src, alt}) => {
+const Icon = ({ src, alt }) => {
 
     return(
         <>

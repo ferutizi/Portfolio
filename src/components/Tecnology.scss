@@ -1,0 +1,13 @@
+.tecnology__container{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr;
+    justify-content: center;
+    justify-items: start;
+}
+
+.tecnology {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6rem;
+}
