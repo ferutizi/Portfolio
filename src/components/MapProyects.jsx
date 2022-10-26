@@ -11,22 +11,22 @@ const MapProyecs = ({ mapProyect }) => {
                             <img 
                                 className='proyect__img'
                                 src={require(`../img/${item.img}`)}
-                                alt={{mapProyect}.title}>
+                                alt={item.title}>
                             </img>
                             <p className='proyect__text'>{item.text}</p>
                             <div className='proyect__icons'>
                                 <div className='proyect__icons--left'>
                                     <Icon 
                                         src={require(`../img/icons/${item.icon1}.png`)}
-                                        alt={{mapProyect}.icon1}
+                                        alt={item.icon1}
                                     />
                                     <Icon 
                                         src={require(`../img/icons/${item.icon2}.png`)}
-                                        alt={{mapProyect}.icon2}
+                                        alt={item.icon2}
                                     />
                                     <Icon 
                                         src={require(`../img/icons/${item.icon3}.png`)}
-                                        alt={{mapProyect}.icon3}
+                                        alt={{item}.icon3}
                                     />
                                 </div>
                                 <div className='proyect__icons--right'>
