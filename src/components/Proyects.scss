@@ -2,8 +2,12 @@
 @import '../scss/mixins';
 
 .proyect__container {
-    @include style-proyect__container;
+    @include container;
     border: 1px solid $secondary;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .proyect__title {
@@ -31,7 +35,11 @@
 }
 
 .more-proyects {
-    @include style-proyect__container;
+    @include container;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .button {

@@ -4,7 +4,7 @@ const Tecnology = ({ tecnology, text }) => {
     return(
         <div className="tecnology">
             <img 
-                className="icon"
+                className="proyect__icon"
                 src={require(`../img/icons/${tecnology}.png`)}
                 alt={tecnology}
             />

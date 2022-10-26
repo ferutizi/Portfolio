@@ -1,13 +1,21 @@
+@import '../scss/mixins';
+@import '../scss/variables';
+
 .tecnology__container{
+    @include container;
+    border: 1px solid $secondary;
     display: grid;
-    grid-template-columns: 0.1fr 0.1fr;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr;
     justify-content: center;
     justify-items: start;
 }
 
 .tecnology {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 0 6rem;
+    &:hover {
+        filter: brightness(0) saturate(100%) invert(57%) sepia(100%) 
+                saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%);
+    }
 }

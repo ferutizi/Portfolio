@@ -23,13 +23,9 @@
     }
 }
 
-@mixin style-proyect__container {
+@mixin container {
     max-width: 900px;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: $primary;
 }
 
@@ -43,7 +39,6 @@
     box-shadow: 2px 2px 5px #000;
     font-weight: 600;
 
-    transition: all ease-in 0.3s;
     cursor: pointer;
 
     &:hover {
