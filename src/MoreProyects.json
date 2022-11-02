@@ -1,7 +1,7 @@
 [
     {
         "id": 4,
-        "title": "Compound interest calculator",
+        "title": "Interest calculator",
         "img": "3.jpg",
         "text": "Calculadora de interés compuesto",
         "icon1": "react",

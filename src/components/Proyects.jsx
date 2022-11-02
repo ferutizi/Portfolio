@@ -1,7 +1,7 @@
 import './Proyects.scss';
 import { useState } from 'react';
 import proyects from '../Proyects.json'
-import moreProyects from '../MoreProyects.json'
+import moreProyects from '../MoreProyects.json';
 import MapProyecs from './MapProyects';
 
 const Proyects = () => {

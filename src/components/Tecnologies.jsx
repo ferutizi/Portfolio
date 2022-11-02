@@ -1,8 +1,7 @@
 import Tecnology from "./Tecnology";
-import './Tecnology.scss'
+import './Tecnology.scss';
 
 const Tecnologies = () => {
-
     return(
         <>
             <h3 className="subtitle">Tecnologías</h3>
