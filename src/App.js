@@ -3,18 +3,9 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Proyects from './components/Proyects';
 import Tecnologies from './components/Tecnologies';
+import Presentation from './components/Presentation';
 
 function App() {
-
-  const Presentation = () => {
-    return(
-    <div>
-      <h1>Fernando Utizi</h1>
-      <h2>Front-end Developer</h2>
-      <p>Soy un apasionado de la tecnología, la creatividad y el aprendizaje</p>
-    </div>
-    )
-  }
 
   return (
     <div className='App'>

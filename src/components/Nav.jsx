@@ -5,7 +5,7 @@ const Nav = () => {
         <nav className="nav">
                 <p className="logo">Fernando Utizi</p>
             <div className="sections">
-                <p className='nav--button'>proyectos</p>
+                <p className='nav--button'>Proyectos</p>
                 <p className='nav--button'>Sobre mí</p>
                 <p className='nav--button'>Contáctame</p>  
             </div>

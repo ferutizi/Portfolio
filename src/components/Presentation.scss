@@ -1,0 +1,35 @@
+@import '../scss/variables';
+@import '../scss/mixins';
+
+.presentation__tittle {
+    text-align: start; 
+    h1 {
+        font-size: 48px;
+        margin: 0;
+        color: $secondary;
+        text-shadow: 2px 2px 4px #000;
+    }
+    h2 {
+        margin: 8px 0;
+    }
+    p {
+        color: $whiteText2;
+        margin-top: 24px;
+    }
+    span {
+        color: $secondary;
+        opacity: 0.9;
+    }
+}
+
+.presentation__container {
+    max-width: 900px;
+    margin: 8rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.exodo {
+    width: 300px;
+}
