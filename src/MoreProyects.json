@@ -2,7 +2,7 @@
     {
         "id": 4,
         "title": "Interest calculator",
-        "img": "3.jpg",
+        "img": "calculator.jpg",
         "text": "Calculadora de interés compuesto",
         "icon1": "react",
         "icon2": "css",
@@ -13,7 +13,7 @@
     {
         "id": 5,
         "title": "Small PDF page",
-        "img": "4.jpg",
+        "img": "smallpdf.jpg",
         "text": "Página web estática",
         "icon1": "html",
         "icon2": "bootstrap",
@@ -23,13 +23,13 @@
     },
     {
         "id": 6,
-        "title": "Small PDF page",
-        "img": "4.jpg",
-        "text": "Página web estática",
-        "icon1": "html",
-        "icon2": "bootstrap",
+        "title": "Clima App",
+        "img": "clima.jpg",
+        "text": "Aplicación de clima consumiendo una API",
+        "icon1": "react",
+        "icon2": "sass",
         "icon3": "void",
-        "repository": "https://github.com/ferutizi/smallPDF-page",
-        "deploy": "https://ferutizi.github.io/smallPDF-page/"
+        "repository": "https://github.com/ferutizi/clima-app",
+        "deploy": "https://ferutizi.github.io/clima-app/"
     }
 ]

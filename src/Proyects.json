@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Rick and Morty",
-        "img": "1.jpg",
+        "img": "rick.jpg",
         "text": "Buscador de imagenes consumiendo una API",
         "icon1": "react",
         "icon2": "css",
@@ -13,18 +13,18 @@
     {
         "id": 2,
         "title": "Ecommerce",
-        "img": "5.jpg",
+        "img": "ecommerce.jpg",
         "text": "Aplicación de ecommerce",
         "icon1": "react",
         "icon2": "redux",
         "icon3": "sass",
         "repository": "https://github.com/ferutizi/e-commerce",
-        "deploy": ""
+        "deploy": "https://ferutizi.github.io/e-commerce/"
     },
     {
         "id": 3,
        "title": "Supermarket-list",
-        "img": "2.jpg",
+        "img": "supermarket.jpg",
         "text": "Lista de supermercado estilo to do",
         "icon1": "react",
         "icon2": "sass",

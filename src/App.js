@@ -11,7 +11,7 @@ function App() {
     <div>
       <h1>Fernando Utizi</h1>
       <h2>Front-end Developer</h2>
-      <h5>Soy un apasionado de la tecnología, la creatividad y el aprendizaje</h5>
+      <p>Soy un apasionado de la tecnología, la creatividad y el aprendizaje</p>
     </div>
     )
   }
