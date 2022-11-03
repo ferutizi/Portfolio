@@ -58,6 +58,7 @@
         padding: 3px 6px;
         border-radius: 4px;
         text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
         font-size: 1rem;
         &:hover {
             color: $secondary;

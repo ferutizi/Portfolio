@@ -13,6 +13,8 @@ const Tecnologies = () => {
                 <Tecnology tecnology={'bootstrap'} text={'Bootstrap'}/>
                 <Tecnology tecnology={'js'} text={'JavaScript'}/>
                 <Tecnology tecnology={'html'} text={'HTML'} />
+                <Tecnology tecnology={'github_2'} text={'GitHub'} />
+                <Tecnology tecnology={'mySQL'} text={'MySQL'} />
             </div>
         </>
     )

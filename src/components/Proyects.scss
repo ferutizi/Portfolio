@@ -39,8 +39,6 @@
 
 .button {
     @include button-primary;
-    position: relative;
-    bottom: -0.75rem;
 }
 
 .proyect__card {
