@@ -30,6 +30,16 @@
     justify-content: space-evenly;
 }
 
-.exodo {
-    width: 300px;
+.exodo__off {
+    width: 19rem;
+    height: auto;
+    position: absolute;
+    &:hover {
+        filter: opacity(0);
+    }
+}
+
+.exodo__on {
+    width: 19rem;
+    height: auto;
 }

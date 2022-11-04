@@ -1,6 +1,7 @@
 import './Presentation.scss';
 
 const Presentation = () => {
+
     return(
         <div className='presentation__container'>
             <div className='presentation__tittle'>
@@ -12,8 +13,17 @@ const Presentation = () => {
                     <span> creatividad</span> y el
                     <span> aprendizaje</span></p>
             </div>
-            <div>
-                <img className='exodo' src={require('../img/exodo.png')} alt="" />
+            <div className='imagen__exodo'>
+                <img
+                    className='exodo__off'
+                    src={require('../img/exodo_off.png')}
+                    alt="portada guitarra exodo"
+                />
+                <img
+                    className='exodo__on'
+                    src={require('../img/exodo_on.png')}
+                    alt="portada guitarra exodo"
+                />
             </div>
         </div>
     );
