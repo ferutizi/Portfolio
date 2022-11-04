@@ -16,11 +16,7 @@ function App() {
         <Tecnologies />
         <h6>Mas sobre mí</h6>
       </div>
-      <Footer>
-          <h5>Contactame</h5>
-          <form></form>
-      </Footer>
-      
+      <Footer />
     </div>
   );
 }
