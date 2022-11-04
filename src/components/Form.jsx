@@ -2,24 +2,25 @@ import './Form.scss';
 import { useFormik } from 'formik';
 import { useState } from 'react';
 
-const validate = (values) => {
-    const errors = {}
-    if(!errors.name) {
-        errors.name = 'requerido'
-    }
-    if(!errors.email) {
-        errors.email = 'requerido'
-    }
-    if(!errors.subject) {
-        errors.subject = 'requerido'
-    }
-    if(!errors.message) {
-        errors.message = 'requerido'
-    }
-    return errors;
-}
-
 const Form = () => {
+
+    const validate = (values) => {
+        const errors = {}
+        if(!values.name) {
+            errors.name = 'requerido'
+        }
+        if(!values.email) {
+            errors.email = 'requerido'
+        }
+        if(!values.subject) {
+            errors.subject = 'requerido'
+        }
+        if(!values.message) {
+            errors.message = 'requerido'
+        }
+        return errors;
+    }
+
     const [mail, setMail] = useState();
 
     const contacto = useFormik({
@@ -32,36 +33,36 @@ const Form = () => {
         validate,
         onSubmit: (values, {resetForm}) => {
             setMail(values);
-            resetForm({values: ''});
+            resetForm({values: contacto.initialValues});
         }
     });
 
     return(
-        <form onSubmit={contacto.handleSubmit}>
+        <form onSubmit={contacto.handleSubmit} className=''>
             <input
                 type='text'
                 placeholder='Nombre'
                 {...contacto.getFieldProps('name')} 
             />
-            {contacto.errors.name ? <div style={{color: 'red'}}>{contacto.errors.name}</div> : null}
+            {contacto.touched.name && contacto.errors.name ? <div className='form__errors'>{contacto.errors.name}</div> : null}
             <input
                 type='email'
                 placeholder='E-mail'
                 {...contacto.getFieldProps('email')} 
             />
-            {contacto.errors.email ? <div>{contacto.errors.email}</div> : null}
+            {contacto.touched.email && contacto.errors.email ? <div className='form__errors'>{contacto.errors.email}</div> : null}
             <input
                 type='text'
                 placeholder='Asunto'
                 {...contacto.getFieldProps('subject')} 
             />
-            {contacto.errors.subject ? <div>{contacto.errors.subject}</div> : null}
+            {contacto.touched.subject && contacto.errors.subject ? <div className='form__errors'>{contacto.errors.subject}</div> : null}
             <input
                 type='text-area'
                 placeholder='Mensaje'
                 {...contacto.getFieldProps('message')} 
             />
-            {contacto.errors.message ? <div>{contacto.errors.message}</div> : null}
+            {contacto.touched.message && contacto.errors.message ? <div className='form__errors'>{contacto.errors.message}</div> : null}
             <button type='submit'>Enviar</button>
         </form>
     )
