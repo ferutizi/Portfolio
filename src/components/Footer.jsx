@@ -1,11 +1,9 @@
 import './Footer';
-import Form from './Form';
+import './Footer.scss'
 
 const Footer = () => {
     return(
-        <div>
-            <h3 className='subtitle'>Contacto</h3>
-            <Form />
+        <div className='footer__container'>
         </div>
     )
 }

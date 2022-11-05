@@ -1,0 +1,7 @@
+@import '../scss/variables';
+@import '../scss/mixins';
+
+.footer__container {
+    height: 48px;
+    background-color: $primary;
+}

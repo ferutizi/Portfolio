@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Proyects from './components/Proyects';
 import Tecnologies from './components/Tecnologies';
 import Presentation from './components/Presentation';
+import Form from './components/Form';
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
         <Tecnologies />
         <h6>Mas sobre mí</h6>
       </div>
+      <h3 className='subtitle'>Contacto</h3>
+      <Form />
       <Footer />
     </div>
   );

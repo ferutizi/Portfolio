@@ -6,7 +6,9 @@ const Nav = () => {
                 <p className="logo">Fernando Utizi</p>
             <div className="sections">
                 <p className='nav--button'>Proyectos</p>
+                <div className='nav--button__div'></div>
                 <p className='nav--button'>Sobre mí</p>
+                <div className='nav--button__div'></div>
                 <p className='nav--button'>Contacto</p>  
             </div>
             <div className="icons">
