@@ -14,11 +14,20 @@
     justify-content: center;
     gap: 1rem;
     padding: 2rem;
+    box-shadow: 3px 3px 6px $shadow;
     border-radius: 10px;
-    ::placeholder { color: $whiteText };
+    :focus { border: 1px solid $secondary }
+    ::placeholder { color: $whiteText2 };
     input {
         background-color: $background;
+        color: #fefefe;
         border: none;
+        outline: none;
+        border-radius: 5px;
+        padding-left: 1rem;
+        box-shadow: -1px -1px 3px 2px $background;
+        :focus { color: red }
+        height: 32px;
     }
 }
 
@@ -28,6 +37,10 @@
     input {
         width: 50%;
     }
+}
+
+.text-area {
+    min-height: 80px;
 }
 
 .form__button {

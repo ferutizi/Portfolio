@@ -64,7 +64,7 @@ const Form = () => {
                 <input
                     type='text-area'
                     placeholder='Mensaje'
-                    className='input__row'
+                    className='input__row text-area'
                     {...contacto.getFieldProps('message')} 
                 />
                 {contacto.touched.message && contacto.errors.message ? <div className='form__errors'>{contacto.errors.message}</div> : null}
