@@ -4,3 +4,32 @@
 .form__errors {
     color: $secondary;
 }
+
+.form {
+    background-color: $primary;
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    ::placeholder { color: $whiteText };
+    input {
+        background-color: $background;
+        border: none;
+    }
+}
+
+.input__row {
+    display: flex;
+    gap: 1rem;
+    input {
+        width: 50%;
+    }
+}
+
+.form__button {
+    @include button-primary
+}

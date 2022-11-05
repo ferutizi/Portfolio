@@ -1,10 +1,10 @@
 import './Footer';
-import { useState } from 'react';
 import Form from './Form';
 
 const Footer = () => {
     return(
         <div>
+            <h3 className='subtitle'>Contacto</h3>
             <Form />
         </div>
     )

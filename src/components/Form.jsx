@@ -38,32 +38,38 @@ const Form = () => {
     });
 
     return(
-        <form onSubmit={contacto.handleSubmit} className=''>
-            <input
-                type='text'
-                placeholder='Nombre'
-                {...contacto.getFieldProps('name')} 
-            />
-            {contacto.touched.name && contacto.errors.name ? <div className='form__errors'>{contacto.errors.name}</div> : null}
-            <input
-                type='email'
-                placeholder='E-mail'
-                {...contacto.getFieldProps('email')} 
-            />
-            {contacto.touched.email && contacto.errors.email ? <div className='form__errors'>{contacto.errors.email}</div> : null}
-            <input
-                type='text'
-                placeholder='Asunto'
-                {...contacto.getFieldProps('subject')} 
-            />
-            {contacto.touched.subject && contacto.errors.subject ? <div className='form__errors'>{contacto.errors.subject}</div> : null}
-            <input
-                type='text-area'
-                placeholder='Mensaje'
-                {...contacto.getFieldProps('message')} 
-            />
-            {contacto.touched.message && contacto.errors.message ? <div className='form__errors'>{contacto.errors.message}</div> : null}
-            <button type='submit'>Enviar</button>
+        <form onSubmit={contacto.handleSubmit}>
+            <div className='form'>
+                <div className='input__row'>
+                    <input
+                        type='text'
+                        placeholder='Nombre'
+                        {...contacto.getFieldProps('name')} 
+                    />
+                    {contacto.touched.name && contacto.errors.name ? <div className='form__errors'>{contacto.errors.name}</div> : null}
+                    <input
+                        type='email'
+                        placeholder='E-mail'
+                        {...contacto.getFieldProps('email')} 
+                    />
+                    {contacto.touched.email && contacto.errors.email ? <div className='form__errors'>{contacto.errors.email}</div> : null}
+                </div>
+                <input
+                    type='text'
+                    placeholder='Asunto'
+                    className='input__row'
+                    {...contacto.getFieldProps('subject')} 
+                />
+                {contacto.touched.subject && contacto.errors.subject ? <div className='form__errors'>{contacto.errors.subject}</div> : null}
+                <input
+                    type='text-area'
+                    placeholder='Mensaje'
+                    className='input__row'
+                    {...contacto.getFieldProps('message')} 
+                />
+                {contacto.touched.message && contacto.errors.message ? <div className='form__errors'>{contacto.errors.message}</div> : null}
+            </div>
+            <button className='form__button' type='submit'>Enviar</button>
         </form>
     )
 }

@@ -7,7 +7,7 @@ const Nav = () => {
             <div className="sections">
                 <p className='nav--button'>Proyectos</p>
                 <p className='nav--button'>Sobre mí</p>
-                <p className='nav--button'>Contáctame</p>  
+                <p className='nav--button'>Contacto</p>  
             </div>
             <div className="icons">
                 <div className='nav--group'>
