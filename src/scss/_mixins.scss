@@ -49,3 +49,21 @@
         box-shadow: none;
     }
 }
+
+@mixin form-errors {
+    color: $secondary;
+    position: relative;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+@mixin form-input {
+    color: #fefefe;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 1rem;
+    box-shadow: 1px 1px 3px 2px inset #000;
+    height: 32px;
+}

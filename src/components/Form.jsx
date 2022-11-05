@@ -38,7 +38,7 @@ const Form = () => {
     });
 
     return(
-        <form onSubmit={contacto.handleSubmit}>
+        <form onSubmit={contacto.handleSubmit} className='form__container'>
             <div className='form'>
                 <div className='input__row'>
                     <input
@@ -60,16 +60,18 @@ const Form = () => {
                     className='input__row'
                     {...contacto.getFieldProps('subject')} 
                 />
-                {contacto.touched.subject && contacto.errors.subject ? <div className='form__errors'>{contacto.errors.subject}</div> : null}
-                <input
+                {contacto.touched.subject && contacto.errors.subject ? <div className='form__errors2'>{contacto.errors.subject}</div> : null}
+                <textarea
                     type='text-area'
-                    placeholder='Mensaje'
+                    placeholder='Mensaje...'
                     className='input__row text-area'
                     {...contacto.getFieldProps('message')} 
                 />
-                {contacto.touched.message && contacto.errors.message ? <div className='form__errors'>{contacto.errors.message}</div> : null}
+                {contacto.touched.message && contacto.errors.message ? <div className='form__errors2'>{contacto.errors.message}</div> : null}
+                <div>
+                    <button className='form__button' type='submit'>Enviar</button>
+                </div>
             </div>
-            <button className='form__button' type='submit'>Enviar</button>
         </form>
     )
 }

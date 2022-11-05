@@ -2,7 +2,19 @@
 @import '../scss/mixins';
 
 .form__errors {
-    color: $secondary;
+    @include form-errors;
+    top: 38px;
+    right: 176px;
+}
+
+.form__errors2 {
+    @include form-errors;
+    top: -28px;
+    right: -16px;
+}
+
+.form__container {
+    margin: 60px;
 }
 
 .form {
@@ -12,22 +24,15 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     padding: 2rem;
     box-shadow: 3px 3px 6px $shadow;
     border-radius: 10px;
-    :focus { border: 1px solid $secondary }
+    :focus { border: 1px solid $secondary };
     ::placeholder { color: $whiteText2 };
     input {
+        @include form-input;
         background-color: $background;
-        color: #fefefe;
-        border: none;
-        outline: none;
-        border-radius: 5px;
-        padding-left: 1rem;
-        box-shadow: -1px -1px 3px 2px $background;
-        :focus { color: red }
-        height: 32px;
     }
 }
 
@@ -40,9 +45,26 @@
 }
 
 .text-area {
+    @include form-input;
+    background-color: $background;
     min-height: 80px;
+    width: 382px;
+    max-width: 382px;
+    min-width: 382px;
+    padding-top: 8px;
 }
 
 .form__button {
     @include button-primary
+}
+
+
+//This change the autocomplete background-color
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px $background inset;
+            box-shadow: 0 0 0 1000px $background inset;
+    -webkit-text-fill-color: #fefefe;
 }
