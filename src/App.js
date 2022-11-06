@@ -15,7 +15,7 @@ function App() {
         <Presentation />
         <Proyects />     
         <Tecnologies />
-        <h6>Mas sobre mí</h6>
+        <h6 className='subtitle'>Sobre mí</h6>
       </div>
       <h3 className='subtitle'>Contacto</h3>
       <Form />

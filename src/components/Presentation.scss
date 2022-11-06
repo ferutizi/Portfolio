@@ -1,15 +1,15 @@
 @import '../scss/variables';
 @import '../scss/mixins';
 
-.presentation__tittle {
+.presentation__title {
     text-align: start; 
     h1 {
         font-size: 48px;
         margin: 0;
         color: $secondary;
-        text-shadow: 2px 2px 4px $shadow;
+        text-shadow: 3px 3px 6px $shadow;
     }
-    h2 {
+    .subtitle {
         margin: 8px 0;
     }
     p {
@@ -17,8 +17,7 @@
         margin-top: 24px;
     }
     span {
-        color: $secondary;
-        opacity: 0.9;
+        color: $resaltedText;
     }
 }
 

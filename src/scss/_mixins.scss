@@ -60,10 +60,10 @@
 
 @mixin form-input {
     color: #fefefe;
-    border: 2px solid black ;
+    border: 1px solid black ;
     outline: none;
     border-radius: 2px;
     padding-left: 1rem;
-    box-shadow: 3px 3px 6px inset $shadow;
+    box-shadow: 2px 4px 6px inset $shadow;
     height: 32px;
 }

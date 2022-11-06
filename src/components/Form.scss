@@ -3,14 +3,14 @@
 
 .form__errors {
     @include form-errors;
-    top: 38px;
-    right: 176px;
+    top: 2.375rem;
+    right: 11.125rem;
 }
 
 .form__errors2 {
     @include form-errors;
-    top: -28px;
-    right: -16px;
+    top: -1.75rem;
+    right: -1rem;
 }
 
 .form__container {
@@ -19,14 +19,13 @@
 
 .form {
     background-color: $primary;
-    width: 400px;
+    width: 25rem;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-    gap: 2rem;
     padding: 2rem;
-    box-shadow: 3px 3px 6px 3px $shadow;
+    box-shadow: 3px 3px 6px 4px $shadow;
     border-radius: 10px;
     :focus { border: 1px solid $secondary };
     ::placeholder { color: $whiteText2 };
@@ -38,26 +37,28 @@
 
 .input__row {
     display: flex;
-    gap: 1rem;
+    margin-bottom: 2rem;
     input {
         width: 50%;
+    }
+    .input__div {
+        width: 1rem;
     }
 }
 
 .text-area {
     @include form-input;
     background-color: $background;
-    min-height: 80px;
-    width: 382px;
-    max-width: 382px;
-    min-width: 382px;
-    padding-top: 8px;
+    min-height: 5rem;
+    width: 23.875rem;
+    max-width: 23.875rem;
+    min-width: 23.875rem;
+    padding-top: 0.5rem;
 }
 
 .form__button {
     @include button-primary
 }
-
 
 //This change the autocomplete background-color
 

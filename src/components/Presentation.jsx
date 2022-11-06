@@ -4,9 +4,9 @@ const Presentation = () => {
 
     return(
         <div className='presentation__container'>
-            <div className='presentation__tittle'>
+            <div className='presentation__title'>
                 <h1>Fernando Utizi</h1>
-                <h2>Front-end Developer</h2>
+                <h2 className='subtitle'>Front-end Developer</h2>
                 <p>Soy un apasionado de la <span> tecnología</span>
                     ,
                     <br></br>la

@@ -12,9 +12,11 @@
 
 .tecnology {
     min-width: 17rem;
+    color: $subtitle;
     display: flex;
     align-items: center;
     background-color: $primary;
     border-radius: 10px;
     box-shadow: 3px 3px 6px $shadow;
+    text-shadow: 2px 2px 4px $shadow;
 }

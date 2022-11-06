@@ -42,12 +42,15 @@ const Form = () => {
             <div className='form'>
                 <div className='input__row'>
                     <input
+                        className='input__margin--right'
                         type='text'
                         placeholder='Nombre'
                         {...contacto.getFieldProps('name')} 
                     />
                     {contacto.touched.name && contacto.errors.name ? <div className='form__errors'>{contacto.errors.name}</div> : null}
+                    <div className='input__div'></div>
                     <input
+                        className='input__margin--left'
                         type='email'
                         placeholder='E-mail'
                         {...contacto.getFieldProps('email')} 
