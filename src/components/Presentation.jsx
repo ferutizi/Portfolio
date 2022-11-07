@@ -7,11 +7,9 @@ const Presentation = () => {
             <div className='presentation__title'>
                 <h1>Fernando Utizi</h1>
                 <h2 className='subtitle'>Front-end Developer</h2>
-                <p>Soy un apasionado de la <span> tecnología</span>
-                    ,
-                    <br></br>la
-                    <span> creatividad</span> y el
-                    <span> aprendizaje</span></p>
+                <p>Soy un apasionado de la <span> tecnología</span>, <br></br>
+                    la <span> creatividad</span> y el<span> aprendizaje</span>
+                </p>
             </div>
             <div className='imagen__exodo'>
                 <img
