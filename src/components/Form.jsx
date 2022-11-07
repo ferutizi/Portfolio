@@ -1,11 +1,9 @@
 import './Form.scss';
 import { useFormik } from 'formik';
-import { useRef, useContext } from 'react';
-import ThemeContext from '../context/ThemeContext';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Form = () => {
-    const {theme} = useContext(ThemeContext);
 
     const validate = (values) => {
         const errors = {}

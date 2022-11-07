@@ -5,12 +5,10 @@ import Proyects from './components/Proyects';
 import Tecnologies from './components/Tecnologies';
 import Presentation from './components/Presentation';
 import Form from './components/Form';
-import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
   return (
     <div className='App' id='home'>
-      <ThemeProvider>
         <Nav />
         <div className='body'>
           <Presentation />
@@ -21,7 +19,6 @@ function App() {
           <Form />
         </div>
         <Footer />
-      </ThemeProvider>
     </div>
   );
 }

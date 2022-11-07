@@ -1,7 +1,6 @@
 import './Presentation.scss';
 
 const Presentation = () => {
-
     return(
         <div className='presentation__container'>
             <div className='presentation__title'>
