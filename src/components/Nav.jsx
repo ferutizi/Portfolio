@@ -3,13 +3,13 @@ import './Nav.scss';
 const Nav = () => {
     return(
         <nav className="nav">
-                <p className="logo">Fernando Utizi</p>
+                <a href='#home' className="logo">Fernando Utizi</a>
             <div className="sections">
-                <p className='nav--button'>Proyectos</p>
+                <a href='#proyects' className='nav--button'>Proyectos</a>
                 <div className='nav--button__div'></div>
-                <p className='nav--button'>Sobre mí</p>
+                <a href='#about-me' className='nav--button'>Sobre mí</a>
                 <div className='nav--button__div'></div>
-                <p className='nav--button'>Contacto</p>  
+                <a href='#contact' className='nav--button'>Contacto</a>  
             </div>
             <div className="icons">
                 <div className='nav--group'>

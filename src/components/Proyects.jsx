@@ -9,8 +9,8 @@ const Proyects = () => {
     const ver = visible;
 
     return(
-        <>
-            <h3 className='subtitle'>Proyectos</h3>
+        <div>
+            <h3 id='proyects' className='subtitle' >Proyectos</h3>
             <div className='proyect__container'>
                 <MapProyecs mapProyect={proyects}/>
                 {
@@ -23,7 +23,7 @@ const Proyects = () => {
                 >Ver {ver ? 'menos' : 'más'}
                 </button>
             </div>
-        </>
+        </div>
     )
 }
 

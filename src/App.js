@@ -9,16 +9,16 @@ import Form from './components/Form';
 function App() {
 
   return (
-    <div className='App'>
+    <div className='App' id='home'>
       <Nav />
       <div className='body'>
         <Presentation />
         <Proyects />     
         <Tecnologies />
-        <h6 className='subtitle'>Sobre mí</h6>
+        <h6 className='subtitle' id='about-me'>Sobre mí</h6>
+        <h3 className='subtitle' id='contact'>Contacto</h3>
+        <Form />
       </div>
-      <h3 className='subtitle'>Contacto</h3>
-      <Form />
       <Footer />
     </div>
   );
