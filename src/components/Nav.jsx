@@ -1,6 +1,10 @@
 import './Nav.scss';
+import { useContext } from 'react';
+import ThemeContext from '../context/ThemeContext';
 
 const Nav = () => {
+    const {theme, handleTheme} = useContext(ThemeContext);
+    console.log(theme);
     return(
         <nav className="nav">
                 <a href='#home' className="logo">Fernando Utizi</a>
@@ -21,7 +25,11 @@ const Nav = () => {
                     </a>
                 </div>
                 <div className='nav--darkmode'>
-                    <img className='nav--icon' src={require('../img/icons/dark.png')}></img>
+                    <img
+                        className='nav--icon'
+                        src={require('../img/icons/dark.png')}
+                        onClick={() => handleTheme(!theme)}>
+                    </img>
                 </div>
             </div>
         </nav>
