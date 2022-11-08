@@ -91,16 +91,20 @@
     align-items: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 912px) {
     .proyect__container {
         max-width: 600px;
     }
     .more-proyects {
         max-width: 600px;
     }
+    .proyect__img {
+        filter: none;
+        opacity: 1;
+    }
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
     .proyect__container {
         max-width: 300px;
     }

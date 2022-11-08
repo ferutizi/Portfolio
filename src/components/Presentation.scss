@@ -43,15 +43,13 @@
     height: auto;
 }
 
-@media (max-width: 560px) {
-    .presentation__container {
-        max-width: 560px;
-        display: flex;
-        flex-direction: column;
-    }
+@media (max-width: 912px) {
     .exodo__off {
         filter: opacity(0);
     }
+}
+
+@media (max-width: 650px) {
     h1 {
         text-align: center;
     }
@@ -60,6 +58,17 @@
     }
     p {
         text-align: center;
+    }
+    .exodo__off {
+        filter: opacity(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .presentation__container {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
     }
     .exodo__on {
         width: 15rem;
