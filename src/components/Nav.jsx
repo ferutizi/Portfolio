@@ -21,9 +21,6 @@ const Nav = () => {
                     </a>
                 </div>
             </div>
-            <div className='nav--menu'>
-                <img className='nav--icon' src={require('../img/icons/menu.png')}></img>
-            </div>
         </nav>
     )
 }

@@ -32,14 +32,14 @@ const Form = () => {
             message: ''
         },
         validate,
-        onSubmit: ({ resetForm }) => {
+        onSubmit: (values, { resetForm }) => {
             emailjs.sendForm('service_tylurvk', 'template_v133iy8', form.current, 'BWCL7ZUqJm6x267aG')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
-            resetForm({values: contacto.initialValues});
+            resetForm({values: ''});
         }
     });
 

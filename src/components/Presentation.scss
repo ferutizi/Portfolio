@@ -49,6 +49,12 @@
     }
 }
 
+@media (min-width: 768px) {
+    .nav--group__presentation {
+        display: none;
+    }
+}
+
 //Movile
 
 @media (max-width: 768px) {
@@ -67,6 +73,24 @@
     .exodo__on, .exodo__off {
         margin-top: 4rem;
     }
+     //NAV
+    .nav--group__presentation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 1rem,
+    }
+    .nav--icon__presentation {
+        width: 2rem;
+        height: auto;
+        display: flex;
+        margin: 0 8px;
+        color: $whiteText;
+        padding: 3px 8px;
+        text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+        font-size: 1rem;
+        text-decoration: none;
+    }
 }
 
 @media (max-width: 600px) {
@@ -75,7 +99,7 @@
         display: flex;
         flex-direction: column;
     }
-    .exodo__on {
+    .exodo__on, .exodo__off {
         width: 15rem;
     }
 }
