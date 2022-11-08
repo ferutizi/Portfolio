@@ -2,9 +2,10 @@
 @import '../scss/variables';
 
 .tecnology__container{
-    @include container;
+    max-width: 900px;
+    margin: auto;
     display: grid;
-    grid-template-columns: 0.1fr 0.1fr 0.1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     justify-items: start;
     gap: 1rem 2rem;
@@ -19,4 +20,24 @@
     border-radius: 10px;
     box-shadow: 3px 3px 6px $shadow;
     text-shadow: 2px 2px 4px $shadow;
+}
+
+//media < 900px
+
+@media (max-width: 900px) {
+    .tecnology__container {
+        display: grid;
+        max-width: 600px;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .tecnology__container {
+        display: grid;
+        max-width: 300px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
 }

@@ -17,12 +17,12 @@ const Proyects = () => {
                     visible &&
                     <MapProyecs mapProyect={moreProyects}/>
                 }
-                <button
-                    className='button button--ver'
-                    onClick={() => setVisible(!visible)}
-                >Ver {ver ? 'menos' : 'más'}
-                </button>
             </div>
+            <button
+                className='button button--ver'
+                onClick={() => setVisible(!visible)}
+            >Ver {ver ? 'menos' : 'más'}
+            </button>
         </div>
     )
 }

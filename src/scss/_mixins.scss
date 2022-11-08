@@ -23,11 +23,6 @@
     }
 }
 
-@mixin container {
-    max-width: 900px;
-    margin: auto;
-}
-
 @mixin button-primary {
     background-color: $secondary;
     color: $primary;

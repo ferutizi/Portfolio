@@ -2,7 +2,8 @@
 @import '../scss/mixins';
 
 .proyect__container {
-    @include container;
+    max-width: 900px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,7 +30,8 @@
 }
 
 .more-proyects {
-    @include container;
+    max-width: 900px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -39,6 +41,7 @@
 
 .button {
     @include button-primary;
+    margin-top: 2rem;
 }
 
 .proyect__card {
@@ -86,4 +89,22 @@
 .proyect__icons--right {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 900px) {
+    .proyect__container {
+        max-width: 600px;
+    }
+    .more-proyects {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 600) {
+    .proyect__container {
+        max-width: 300px;
+    }
+    .more-proyects {
+        max-width: 300px;
+    }
 }

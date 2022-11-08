@@ -13,7 +13,7 @@
     box-shadow: 0 2px 8px $shadow;
     .logo {
         display: flex;
-        margin: 0 0 0 60px;
+        margin: 0 0 0 3.75rem;
         color: $secondary;
         font-size: 1.25rem;
         font-weight: 600;
@@ -27,7 +27,7 @@
     }
     .icons {
         display: flex;
-        margin: 10px 60px 10px 0px;
+        margin: 10px 3.75rem 10px 0px;
         cursor: pointer;
     }
     .nav--icon {
@@ -60,3 +60,26 @@
         box-shadow: 3px 3px 4px $shadow;
     }
 }
+
+@media (max-width: 800px) {
+    .nav {
+        .logo {
+            margin: 0 0 0 0.65rem;
+        }
+        .icons {
+            margin: 10px 0.5rem 10px 0px;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .nav {
+        .logo {
+            margin: 0 0 0 0.65rem;
+        }
+        .icons {
+            margin: 10px 0.5rem 10px 0px;
+        }
+    }
+}
+

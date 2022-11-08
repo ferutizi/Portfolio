@@ -42,3 +42,26 @@
     width: 19rem;
     height: auto;
 }
+
+@media (max-width: 560px) {
+    .presentation__container {
+        max-width: 560px;
+        display: flex;
+        flex-direction: column;
+    }
+    .exodo__off {
+        filter: opacity(0);
+    }
+    h1 {
+        text-align: center;
+    }
+    .subtitle {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .exodo__on {
+        width: 15rem;
+    }
+}
