@@ -1,0 +1,8 @@
+@import '../scss/variables';  
+@import '../scss/mixins';  
+
+.nav--icon {
+    @include button-icon;
+    width: 30px;
+    height: auto;
+}

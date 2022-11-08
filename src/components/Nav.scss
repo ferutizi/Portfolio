@@ -33,11 +33,6 @@
     .nav--menu {
         align-items: center;
     }
-    .nav--icon {
-        @include button-icon;
-        width: 30px;
-        height: auto;
-    }
     .nav--group {
         display: flex;
         align-items: center;
