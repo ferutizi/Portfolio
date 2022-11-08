@@ -73,7 +73,8 @@
     .exodo__on, .exodo__off {
         margin-top: 4rem;
     }
-     //NAV
+    
+    //NAV
     .nav--group__presentation {
         display: flex;
         align-items: center;
@@ -81,12 +82,9 @@
         margin: 0 1rem,
     }
     .nav--icon {
-        width: 2rem;
         height: auto;
         display: flex;
-        margin: 0 8px;
         color: $whiteText;
-        padding: 3px 8px;
         text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
         font-size: 1rem;
         text-decoration: none;
