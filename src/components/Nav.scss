@@ -30,6 +30,9 @@
         margin: 10px 3.75rem 10px 0px;
         cursor: pointer;
     }
+    .nav--menu {
+        align-items: center;
+    }
     .nav--icon {
         @include button-icon;
         width: 30px;
@@ -69,6 +72,20 @@
         .icons {
             margin: 10px 0.5rem 10px 0px;
         }
+    }
+}
+
+//Menu movile
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+}
+
+//Menu movile
+@media (min-width: 768px) {
+    .nav--menu {
+        display: none;
     }
 }
 

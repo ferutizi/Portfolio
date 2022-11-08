@@ -52,7 +52,6 @@
     min-height: 5rem;
     width: 23.875rem;
     max-width: 23.875rem;
-    min-width: 23.875rem;
     padding-top: 0.5rem;
 }
 
@@ -68,4 +67,31 @@ select:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px $background inset;
             box-shadow: 0 0 0 1000px $background inset;
     -webkit-text-fill-color: #fefefe;
+}
+
+//Movile
+
+@media (max-width: 500px) {
+    .form__container {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .form {
+        width: 200px;
+        margin-bottom: 4rem;
+        input, textarea {
+            width: 200px;
+            margin-bottom: 2rem;
+        }
+    }
+    .input__row {
+        display: grid;
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+    .form__errors {
+        top: -1.8rem;
+        right: -1.05rem;
+    }
 }
