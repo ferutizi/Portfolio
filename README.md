@@ -1,6 +1,6 @@
 # Portfolio Fernando Utizi
 
-podes ver mi porfolio haciendo click [ACA](https://github.com/)
+podes ver mi porfolio haciendo click [ACA](https://ferutizi.github.io/Portfolio/)
 
 ## Tecnologias usadas
 
@@ -10,10 +10,9 @@ podes ver mi porfolio haciendo click [ACA](https://github.com/)
 
 ## Tareas pendientes
 
-- [ ] agregar mas sobre mi
-- [ ] Implementar formulario de contacto
-- [ ] Implementar Nightmode
-- [ ] Responsive design
+- [ x ] agregar mas sobre mi
+- [ x ] Implementar formulario de contacto
+- [ x ] Responsive design
 
 
 ## Futuras iteraciones
@@ -23,5 +22,5 @@ podes ver mi porfolio haciendo click [ACA](https://github.com/)
 # Contacto
 
 - Podes mandarme un mail a: fer.utizi@gmail.com
-- Podes ver portfolio completo [ACA](https://github.com/ferutizi)
+- Podes ver portfolio completo [ACA](https://ferutizi.github.io/Portfolio/)
 - Podes ver mi linkedin [ACA](https://www.linkedin.com/in/fernando-utizi-2a72a3233/)
