@@ -5,6 +5,7 @@ import Proyects from './components/Proyects';
 import Tecnologies from './components/Tecnologies';
 import Presentation from './components/Presentation';
 import Form from './components/Form';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -14,8 +15,7 @@ function App() {
           <Presentation />
           <Proyects />     
           <Tecnologies />
-          <h6 className='subtitle' id='about-me'>Sobre mí</h6>
-          <h3 className='subtitle' id='contact'>Contacto</h3>
+          <AboutMe />
           <Form />
         </div>
         <Footer />

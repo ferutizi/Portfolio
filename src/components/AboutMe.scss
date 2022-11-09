@@ -1,0 +1,13 @@
+@import '../scss/variables';
+@import '../scss/mixins';
+
+.about__text {
+    color: $whiteText2;
+    max-width: 900px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+span {
+    color: $resaltedText;
+}

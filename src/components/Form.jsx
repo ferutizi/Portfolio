@@ -44,44 +44,47 @@ const Form = () => {
     });
 
     return(
-        <form onSubmit={contacto.handleSubmit} className='form__container' ref={form}>
-            <div className='form'>
-                <div className='input__row'>
+        <>
+            <h3 className='subtitle' id='contact'>Contacto</h3>
+            <form onSubmit={contacto.handleSubmit} className='form__container' ref={form}>
+                <div className='form'>
+                    <div className='input__row'>
+                        <input
+                            className='input__margin--right'
+                            type='text'
+                            placeholder='Nombre'
+                            {...contacto.getFieldProps('name')} 
+                        />
+                        {contacto.touched.name && contacto.errors.name ? <div className='form__errors'>{contacto.errors.name}</div> : null}
+                        <div className='input__div'></div>
+                        <input
+                            className='input__margin--left'
+                            type='email'
+                            placeholder='E-mail'
+                            {...contacto.getFieldProps('email')} 
+                        />
+                        {contacto.touched.email && contacto.errors.email ? <div className='form__errors'>{contacto.errors.email}</div> : null}
+                    </div>
                     <input
-                        className='input__margin--right'
                         type='text'
-                        placeholder='Nombre'
-                        {...contacto.getFieldProps('name')} 
+                        placeholder='Asunto'
+                        className='input__row'
+                        {...contacto.getFieldProps('subject')} 
                     />
-                    {contacto.touched.name && contacto.errors.name ? <div className='form__errors'>{contacto.errors.name}</div> : null}
-                    <div className='input__div'></div>
-                    <input
-                        className='input__margin--left'
-                        type='email'
-                        placeholder='E-mail'
-                        {...contacto.getFieldProps('email')} 
+                    {contacto.touched.subject && contacto.errors.subject ? <div className='form__errors2'>{contacto.errors.subject}</div> : null}
+                    <textarea
+                        type='text-area'
+                        placeholder='Mensaje...'
+                        className='input__row text-area'
+                        {...contacto.getFieldProps('message')} 
                     />
-                    {contacto.touched.email && contacto.errors.email ? <div className='form__errors'>{contacto.errors.email}</div> : null}
+                    {contacto.touched.message && contacto.errors.message ? <div className='form__errors2'>{contacto.errors.message}</div> : null}
+                    <div>
+                        <button className='form__button' type='submit'>Enviar</button>
+                    </div>
                 </div>
-                <input
-                    type='text'
-                    placeholder='Asunto'
-                    className='input__row'
-                    {...contacto.getFieldProps('subject')} 
-                />
-                {contacto.touched.subject && contacto.errors.subject ? <div className='form__errors2'>{contacto.errors.subject}</div> : null}
-                <textarea
-                    type='text-area'
-                    placeholder='Mensaje...'
-                    className='input__row text-area'
-                    {...contacto.getFieldProps('message')} 
-                />
-                {contacto.touched.message && contacto.errors.message ? <div className='form__errors2'>{contacto.errors.message}</div> : null}
-                <div>
-                    <button className='form__button' type='submit'>Enviar</button>
-                </div>
-            </div>
-        </form>
+            </form>
+        </>
     )
 }
 
