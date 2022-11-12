@@ -10,9 +10,9 @@ podes ver mi porfolio haciendo click [ACA](https://ferutizi.github.io/Portfolio/
 
 ## Tareas pendientes
 
-- [ x ] agregar mas sobre mi
-- [ x ] Implementar formulario de contacto
-- [ x ] Responsive design
+- [x] agregar mas sobre mi
+- [x] Implementar formulario de contacto
+- [x] Responsive design
 
 # Contacto
 
