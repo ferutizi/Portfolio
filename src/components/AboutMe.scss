@@ -11,3 +11,9 @@
 span {
     color: $resaltedText;
 }
+
+@media (max-width: 900px) {
+    .about__text {
+        padding: 0 4rem;
+    }
+}

@@ -14,11 +14,6 @@ podes ver mi porfolio haciendo click [ACA](https://ferutizi.github.io/Portfolio/
 - [ x ] Implementar formulario de contacto
 - [ x ] Responsive design
 
-
-## Futuras iteraciones
-
-- 
-
 # Contacto
 
 - Podes mandarme un mail a: fer.utizi@gmail.com
