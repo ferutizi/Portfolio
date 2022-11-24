@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7d4df282.css",
-    "main.js": "/Portfolio/static/js/main.98c83dd2.js",
+    "main.css": "/Portfolio/static/css/main.f94d2ba9.css",
+    "main.js": "/Portfolio/static/js/main.5b205341.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/exodo_off.png": "/Portfolio/static/media/exodo_off.29c5ba9f9e70199e2a7e.png",
     "static/media/exodo_on.png": "/Portfolio/static/media/exodo_on.4dd5f89444e4be996dd6.png",
@@ -32,12 +32,12 @@
     "static/media/menu.png": "/Portfolio/static/media/menu.078d589d8ed54bb6b127.png",
     "static/media/void.png": "/Portfolio/static/media/void.0e8b49185caa3e84f43e.png",
     "index.html": "/Portfolio/index.html",
-    "main.7d4df282.css.map": "/Portfolio/static/css/main.7d4df282.css.map",
-    "main.98c83dd2.js.map": "/Portfolio/static/js/main.98c83dd2.js.map",
+    "main.f94d2ba9.css.map": "/Portfolio/static/css/main.f94d2ba9.css.map",
+    "main.5b205341.js.map": "/Portfolio/static/js/main.5b205341.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d4df282.css",
-    "static/js/main.98c83dd2.js"
+    "static/css/main.f94d2ba9.css",
+    "static/js/main.5b205341.js"
   ]
 }
