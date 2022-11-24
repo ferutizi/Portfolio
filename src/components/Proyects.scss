@@ -71,6 +71,7 @@
     width: 18px;
     height: auto;
     margin: 8px 10px;
+    filter: drop-shadow(2px 2px 4px $shadow);
 }
 
 .proyect__icons {
@@ -80,6 +81,7 @@
     justify-content: space-around;
     margin: 0 10px;
     gap: 2rem;
+    filter: drop-shadow(2px 2px 4px $shadow);
 }
 
 .proyect__icons--left {

@@ -17,9 +17,11 @@
     align-content: center;
     margin: 0 10px;
     cursor: pointer;
+    filter: drop-shadow(2px 2px 4px #000);
     &:hover {
         filter: brightness(0) saturate(100%) invert(57%) sepia(100%) 
-                saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%);
+                saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%)
+                drop-shadow(2px 2px 4px #000);
     }
 }
 
