@@ -9,7 +9,7 @@ const IconsNav = () => {
             <a href='https://www.linkedin.com/in/fernando-utizi-2a72a3233/' target='_blank'>
                 <img className='nav--icon' src={require('../img/icons/linkedin.png')}></img>
             </a>
-            <a href='CV-FronEnd-Fernando Utizi.pdf' download='CV-FronEnd-Fernando Utizi.pdf' target='_blank'>
+            <a href='CV-FrontEnd-Fernando Utizi.pdf' download='CV-FrontEnd-Fernando Utizi.pdf' target='_blank'>
                 <img className='nav--icon' src={require('../img/icons/cv.png')}></img>
             </a>
         </>
