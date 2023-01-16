@@ -7,13 +7,6 @@ podes ver mi porfolio haciendo click [ACA](https://ferutizi.github.io/Portfolio/
 - React
 - SASS
 
-
-## Tareas pendientes
-
-- [x] agregar mas sobre mi
-- [x] Implementar formulario de contacto
-- [x] Responsive design
-
 # Contacto
 
 - Podes mandarme un mail a: fer.utizi@gmail.com
