@@ -1,4 +1,5 @@
 import './App.scss';
+import { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Proyects from './components/Proyects';
@@ -8,17 +9,18 @@ import Form from './components/Form';
 import AboutMe from './components/AboutMe';
 
 function App() {
+  const [cvOk, setCvOk] = useState(false);
   return (
     <div className='App' id='home'>
-        <Nav />
+        <Nav cvOk={cvOk} setCvOk={setCvOk} />
         <div className='body'>
-          <Presentation />
+          <Presentation cvOk={cvOk} setCvOk={setCvOk} />
           <Proyects />     
           <Tecnologies />
           <AboutMe />
           <Form />
         </div>
-        <Footer />
+        <Footer cvOk={cvOk} setCvOk={setCvOk} />
     </div>
   );
 }

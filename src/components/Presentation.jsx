@@ -1,6 +1,6 @@
 import './Presentation.scss';
 
-const Presentation = () => {
+const Presentation = ({ cvOk, setCvOk }) => {
     return(
         <div className='presentation__container'>
             <div className='presentation__title'>
@@ -17,7 +17,7 @@ const Presentation = () => {
                         <img className='nav--icon' src={require('../img/icons/linkedin.png')}></img>
                     </a>
                     <a href='CV - Fernando Utizi.pdf' download='CV - Fernando Utizi.pdf' target='_blank'>
-                        <img className='nav--icon' src={require('../img/icons/cv.png')}></img>
+                    <img className='nav--icon' src={require(`../img/icons/${cvOk ? 'cv_ok' : 'cv'}.png`)} onClick={() => setCvOk(true)}></img>
                     </a>
                 </div>
             </div>

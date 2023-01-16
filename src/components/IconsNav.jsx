@@ -1,6 +1,6 @@
 import './IconsNav.scss';
 
-const IconsNav = () => {
+const IconsNav = ({ cvOk, setCvOk }) => {
     return(
         <>
             <a href='https://github.com/ferutizi' target='_blank'>
@@ -10,7 +10,7 @@ const IconsNav = () => {
                 <img className='nav--icon' src={require('../img/icons/linkedin.png')}></img>
             </a>
             <a href='CV-FrontEnd-Fernando Utizi.pdf' download='CV-FrontEnd-Fernando Utizi.pdf' target='_blank'>
-                <img className='nav--icon' src={require('../img/icons/cv.png')}></img>
+                <img className='nav--icon' src={require(`../img/icons/${cvOk ? 'cv_ok' : 'cv'}.png`)} onClick={() => setCvOk(true)}></img>
             </a>
         </>
     );

@@ -2,13 +2,13 @@ import './Footer';
 import './Footer.scss'
 import IconsNav from './IconsNav';
 
-const Footer = () => {
+const Footer = ({ cvOk, setCvOk }) => {
     return(
         <div className='footer__container'>
             <div className='footer__left'>
                 <div className='icons__container'>
                     <p className='footer__title'>Contáctame:</p>
-                    <IconsNav />
+                    <IconsNav cvOk={cvOk} setCvOk={setCvOk} />
                 </div>
             </div>
             <div className='footer__left'>

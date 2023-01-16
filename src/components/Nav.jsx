@@ -1,7 +1,7 @@
 import IconsNav from './IconsNav';
 import './Nav.scss';
 
-const Nav = () => {
+const Nav = ({ cvOk, setCvOk }) => {
     return(
         <nav className="nav">
                 <a href='#home' className="logo">Fernando Utizi</a>
@@ -14,7 +14,7 @@ const Nav = () => {
             </div>
             <div className="icons">
                 <div className='nav--group'>
-                    <IconsNav />
+                    <IconsNav cvOk={cvOk} setCvOk={setCvOk} />
                 </div>
             </div>
         </nav>

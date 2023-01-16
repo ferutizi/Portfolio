@@ -44,6 +44,18 @@
     height: auto;
 }
 
+.nav--cv {
+    &:hover {
+        filter: opacity(0);
+    }
+}
+
+.nav--cv__ok {
+    &:hover {
+        filter: opacity(0);
+    }
+}
+
 @media (max-width: 912px) {
     .exodo__off {
         filter: opacity(0);
