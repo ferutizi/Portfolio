@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "title": "Rick and Morty",
-        "img": "rick.jpg",
+        "title": "Dogs Beeds",
+        "img": "dog.jpg",
         "text": "Buscador de imagenes consumiendo una API",
         "icon1": "react",
         "icon2": "css",
