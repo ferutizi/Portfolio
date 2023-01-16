@@ -16,7 +16,7 @@ const Presentation = ({ cvOk, setCvOk }) => {
                     <a href='https://www.linkedin.com/in/fernando-utizi-2a72a3233/' target='_blank'>
                         <img className='nav--icon' src={require('../img/icons/linkedin.png')}></img>
                     </a>
-                    <a href='CV - Fernando Utizi.pdf' download='CV - Fernando Utizi.pdf' target='_blank'>
+                    <a href='Fernando Utizi-FrontEnd Developer-CV.pdf' download='Fernando Utizi-FrontEnd Developer-CV.pdf' target='_blank'>
                     <img className='nav--icon' src={require(`../img/icons/${cvOk ? 'cv_ok' : 'cv'}.png`)} onClick={() => setCvOk(true)}></img>
                     </a>
                 </div>
