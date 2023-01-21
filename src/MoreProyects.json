@@ -59,9 +59,9 @@
         "title": "Greydive Challenge",
         "img": "greydive.jpg",
         "text": "Formulario y base de datos con Firebase",
-        "icon1": "react",
-        "icon2": "sass",
-        "icon3": "void",
+        "icon1": "react-router",
+        "icon2": "firebase",
+        "icon3": "testing-library",
         "repository": "https://github.com/ferutizi/greydive-challenge",
         "deploy": "https://ferutizi.github.io/greydive-challenge/"
     }
