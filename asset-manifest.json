@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8da473e3.css",
-    "main.js": "/Portfolio/static/js/main.981205a4.js",
+    "main.css": "/Portfolio/static/css/main.a42aeb1f.css",
+    "main.js": "/Portfolio/static/js/main.720cce9f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/dog.jpg": "/Portfolio/static/media/dog.9fa3db58ab5c77ace66b.jpg",
     "static/media/exodo_off.png": "/Portfolio/static/media/exodo_off.31023b63a0ea2d0bef54.png",
     "static/media/exodo_on.png": "/Portfolio/static/media/exodo_on.a61932028cfe7988ecf3.png",
     "static/media/ecommerce.jpg": "/Portfolio/static/media/ecommerce.1a8ccfdc669c946c5c3f.jpg",
     "static/media/clima.jpg": "/Portfolio/static/media/clima.a28d556fd99c33cce5e4.jpg",
+    "static/media/adviency.jpg": "/Portfolio/static/media/adviency.6d1e55554a99bdc02563.jpg",
     "static/media/smallpdf.jpg": "/Portfolio/static/media/smallpdf.324669f31c2c08a40031.jpg",
+    "static/media/greydive.jpg": "/Portfolio/static/media/greydive.cb8b2edb6f03f692fef1.jpg",
     "static/media/supermarket.jpg": "/Portfolio/static/media/supermarket.70d6c47a251592bda7e6.jpg",
     "static/media/calculator.jpg": "/Portfolio/static/media/calculator.b8e7e913586d4ddf12b7.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.8da473e3.css.map": "/Portfolio/static/css/main.8da473e3.css.map",
-    "main.981205a4.js.map": "/Portfolio/static/js/main.981205a4.js.map",
+    "main.a42aeb1f.css.map": "/Portfolio/static/css/main.a42aeb1f.css.map",
+    "main.720cce9f.js.map": "/Portfolio/static/js/main.720cce9f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8da473e3.css",
-    "static/js/main.981205a4.js"
+    "static/css/main.a42aeb1f.css",
+    "static/js/main.720cce9f.js"
   ]
 }
