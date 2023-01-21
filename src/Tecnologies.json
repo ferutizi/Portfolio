@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "tecnology": "react",
+        "text": "React"
+    },
+    {
+        "id": 2,
+        "tecnology": "redux",
+        "text": "Redux"
+    },
+    {
+        "id": 3,
+        "tecnology": "react-router",
+        "text": "React Router"
+    },
+    {
+        "id": 4,
+        "tecnology": "testing-library",
+        "text": "Testing Library"
+    },
+    {
+        "id": 5,
+        "tecnology": "css",
+        "text": "CSS"
+    },
+    {
+        "id": 6,
+        "tecnology": "sass",
+        "text": "SASS"
+    },
+    {
+        "id": 7,
+        "tecnology": "bootstrap",
+        "text": "Bootstrap"
+    },
+    {
+        "id": 8,
+        "tecnology": "js",
+        "text": "JavaScript"
+    },
+    {
+        "id": 9,
+        "tecnology": "html",
+        "text": "HTML"
+    },
+    {
+        "id": 10,
+        "tecnology": "github_2",
+        "text": "GitHub"
+    },
+    {
+        "id": 11,
+        "tecnology": "firebase",
+        "text": "Firebase"
+    },
+    {
+        "id": 12,
+        "tecnology": "mySQL",
+        "text": "MySQL"
+    }
+]
