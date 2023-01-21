@@ -1,14 +1,14 @@
 [
     {
         "id": 4,
-        "title": "Interest calculator",
-        "img": "calculator.jpg",
-        "text": "Calculadora de interés compuesto",
-        "icon1": "react",
-        "icon2": "css",
-        "icon3": "void",
-        "repository": "https://github.com/ferutizi/calculadora-Interes-compuesto-react",
-        "deploy": "https://ferutizi.github.io/calculadora-Interes-compuesto-react/"
+        "title": "Greydive Challenge",
+        "img": "greydive.jpg",
+        "text": "Formulario y base de datos con Firebase",
+        "icon1": "react-router",
+        "icon2": "firebase",
+        "icon3": "testing-library",
+        "repository": "https://github.com/ferutizi/greydive-challenge",
+        "deploy": "https://ferutizi.github.io/greydive-challenge/"
     },
     {
         "id": 5,
@@ -56,13 +56,13 @@
     },
     {
         "id": 9,
-        "title": "Greydive Challenge",
-        "img": "greydive.jpg",
-        "text": "Formulario y base de datos con Firebase",
-        "icon1": "react-router",
-        "icon2": "firebase",
-        "icon3": "testing-library",
-        "repository": "https://github.com/ferutizi/greydive-challenge",
-        "deploy": "https://ferutizi.github.io/greydive-challenge/"
+        "title": "Interest calculator",
+        "img": "calculator.jpg",
+        "text": "Calculadora de interés compuesto",
+        "icon1": "react",
+        "icon2": "css",
+        "icon3": "void",
+        "repository": "https://github.com/ferutizi/calculadora-Interes-compuesto-react",
+        "deploy": "https://ferutizi.github.io/calculadora-Interes-compuesto-react/"
     }
 ]
