@@ -3,7 +3,7 @@
         "id": 4,
         "title": "Greydive Challenge",
         "img": "greydive.jpg",
-        "text": "Formulario y base de datos con Firebase",
+        "text": "Formulario y base de datos con Firebase. Unit Testing",
         "icon1": "react-router",
         "icon2": "firebase",
         "icon3": "testing-library",

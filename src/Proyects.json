@@ -14,7 +14,7 @@
         "id": 2,
         "title": "Ecommerce",
         "img": "ecommerce.jpg",
-        "text": "Aplicación de ecommerce",
+        "text": "Aplicación de ecommerce, manejo del estado con Redux",
         "icon1": "react",
         "icon2": "redux",
         "icon3": "sass",
@@ -25,10 +25,10 @@
         "id": 3,
        "title": "Supermarket-list",
         "img": "supermarket.jpg",
-        "text": "Lista de supermercado estilo to do",
+        "text": "Lista de supermercado estilo to do, con base de datos MySQL y Spring Boot",
         "icon1": "react",
         "icon2": "sass",
-        "icon3":"void",
+        "icon3":"mySQL",
         "repository": "https://github.com/ferutizi/supermarket-list",
         "deploy": "https://ferutizi.github.io/supermarket-list/"
     }
