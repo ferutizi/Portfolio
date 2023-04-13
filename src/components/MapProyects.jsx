@@ -8,7 +8,7 @@ const MapProyecs = ({ mapProyect }) => {
             {mapProyect.map(item => 
                 <div key={item.id} className='proyect__card'>
                     <h3 className='proyect__title'>{item.title}</h3>
-                    <a href={item.deploy} target='_blank'>
+                    <a href={item.deploy} target='_blank' rel='noreferrer'>
                         <img 
                             className='proyect__img'
                             src={require(`../img/${item.img}`)}
