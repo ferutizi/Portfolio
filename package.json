@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage":"https://ferutizi.github.io/Portfolio",
+  "homepage": "https://ferutizi.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,13 +11,13 @@
     "formik": "^2.2.9",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^4.0.3",
     "sass": "^1.51.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -26,7 +26,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "./node_modules/standar/eslintrc.json"
     ]
   },
   "browserslist": {
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "standard": "^17.0.0"
   }
 }
