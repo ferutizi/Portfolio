@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a42aeb1f.css",
-    "main.js": "/Portfolio/static/js/main.01563fb2.js",
+    "main.css": "/Portfolio/static/css/main.a2a86eaf.css",
+    "main.js": "/Portfolio/static/js/main.b0f027ec.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/dog.jpg": "/Portfolio/static/media/dog.9fa3db58ab5c77ace66b.jpg",
     "static/media/exodo_off.png": "/Portfolio/static/media/exodo_off.31023b63a0ea2d0bef54.png",
@@ -14,12 +14,12 @@
     "static/media/supermarket.jpg": "/Portfolio/static/media/supermarket.70d6c47a251592bda7e6.jpg",
     "static/media/calculator.jpg": "/Portfolio/static/media/calculator.b8e7e913586d4ddf12b7.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.a42aeb1f.css.map": "/Portfolio/static/css/main.a42aeb1f.css.map",
-    "main.01563fb2.js.map": "/Portfolio/static/js/main.01563fb2.js.map",
+    "main.a2a86eaf.css.map": "/Portfolio/static/css/main.a2a86eaf.css.map",
+    "main.b0f027ec.js.map": "/Portfolio/static/js/main.b0f027ec.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a42aeb1f.css",
-    "static/js/main.01563fb2.js"
+    "static/css/main.a2a86eaf.css",
+    "static/js/main.b0f027ec.js"
   ]
 }
