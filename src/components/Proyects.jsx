@@ -14,9 +14,8 @@ const Proyects = () => {
       <div className='proyect__container'>
         <MapProyecs mapProyect={proyects} />
         {
-                    visible &&
-                      <MapProyecs mapProyect={moreProyects} />
-                }
+          visible && <MapProyecs mapProyect={moreProyects} />
+        }
       </div>
       <button
         className='button button--ver'

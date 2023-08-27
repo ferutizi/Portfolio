@@ -18,7 +18,6 @@
 
 .proyect__img {
     width: 15rem;
-    margin: 0.3rem 1.5rem; 
     justify-content: center;
     height: 10rem;
     border-radius: 5px;
@@ -80,7 +79,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 0 10px;
     gap: 2rem;
     filter: drop-shadow(2px 2px 4px $shadow);
 }

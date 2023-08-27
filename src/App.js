@@ -7,6 +7,7 @@ import Tecnologies from './components/Tecnologies'
 import Presentation from './components/Presentation'
 import Form from './components/Form'
 import AboutMe from './components/AboutMe'
+import Experience from './components/Experience'
 
 function App () {
   const [cvOk, setCvOk] = useState(false)
@@ -15,6 +16,7 @@ function App () {
       <Nav cvOk={cvOk} setCvOk={setCvOk} />
       <div className='body'>
         <Presentation cvOk={cvOk} setCvOk={setCvOk} />
+        <Experience />
         <Proyects />
         <Tecnologies />
         <AboutMe />
