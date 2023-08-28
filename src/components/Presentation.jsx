@@ -2,7 +2,7 @@ import './Presentation.scss'
 
 const Presentation = ({ cvOk, setCvOk }) => {
   return (
-    <div className='presentation__container'>
+    <section className='presentation__container'>
       <div className='presentation__title'>
         <h1>Fernando Utizi</h1>
         <h2 className='subtitle'>Front-end Developer</h2>
@@ -33,7 +33,7 @@ const Presentation = ({ cvOk, setCvOk }) => {
           alt='portada guitarra exodo'
         />
       </div>
-    </div>
+    </section>
   )
 }
 

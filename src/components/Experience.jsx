@@ -3,7 +3,7 @@ import Icon from "./Icon"
 
 const Experience = () => {
     return(
-        <>
+        <section>
             <h3 id='experience' className='subtitle'>Experiencia</h3>
             <div className='proyect__container'>
                 <div className='proyect__card' style={{width: '50%', maxWidth: 'none'}}>
@@ -41,7 +41,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     )
 }
 

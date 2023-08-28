@@ -2,8 +2,8 @@ import './AboutMe.scss'
 
 const AboutMe = () => {
   return (
-    <>
-      <h6 className='subtitle' id='about-me'>Sobre mí</h6>
+    <section>
+      <h3 className='subtitle' id='about-me'>Sobre mí</h3>
       <div style={{ display: 'flex' }}>
         <p className='about__text'>
           Mi pasión por la <span>tecnología</span> y por el aprendizaje me ha llevado a estudiar <span> programación </span>
@@ -14,7 +14,7 @@ const AboutMe = () => {
           <span> fortalecer</span> mi formación en el ámbito profesional IT.
         </p>
       </div>
-    </>
+    </section>
   )
 }
 

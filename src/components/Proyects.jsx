@@ -9,7 +9,7 @@ const Proyects = () => {
   const ver = visible
 
   return (
-    <div>
+    <section>
       <h3 id='proyects' className='subtitle'>Proyectos</h3>
       <div className='proyect__container'>
         <MapProyecs mapProyect={proyects} />
@@ -22,7 +22,7 @@ const Proyects = () => {
         onClick={() => setVisible(!visible)}
       >Ver {ver ? 'menos' : 'más'}
       </button>
-    </div>
+    </section>
   )
 }
 

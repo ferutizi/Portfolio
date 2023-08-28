@@ -4,7 +4,7 @@ import IconsNav from './IconsNav'
 
 const Footer = ({ cvOk, setCvOk }) => {
   return (
-    <div className='footer__container'>
+    <footer className='footer__container'>
       <div className='footer__left'>
         <div className='icons__container'>
           <p className='footer__title'>Contáctame:</p>
@@ -25,7 +25,7 @@ const Footer = ({ cvOk, setCvOk }) => {
           </a>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 

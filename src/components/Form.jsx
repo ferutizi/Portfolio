@@ -43,7 +43,7 @@ const Form = () => {
   })
 
   return (
-    <>
+    <section>
       <h3 className='subtitle' id='contact'>Contacto</h3>
       <form onSubmit={contacto.handleSubmit} className='form__container' ref={form}>
         <div className='form'>
@@ -83,7 +83,7 @@ const Form = () => {
           </div>
         </div>
       </form>
-    </>
+    </section>
   )
 }
 
