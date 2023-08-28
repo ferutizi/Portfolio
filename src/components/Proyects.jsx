@@ -6,7 +6,6 @@ import MapProyecs from './MapProyects'
 
 const Proyects = () => {
   const [visible, setVisible] = useState(false)
-  const ver = visible
 
   return (
     <section>
@@ -20,7 +19,7 @@ const Proyects = () => {
       <button
         className='button button--ver'
         onClick={() => setVisible(!visible)}
-      >Ver {ver ? 'menos' : 'más'}
+      >Ver {visible ? 'menos' : 'más'}
       </button>
     </section>
   )

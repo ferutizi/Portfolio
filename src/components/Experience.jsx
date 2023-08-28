@@ -10,9 +10,9 @@ const Experience = () => {
                     <h3 className='proyect__title'>Trémolo - Escuela de guitarra</h3>
                     <a href='https://www.tremoloescuela.com/' target='_blank' rel='noreferrer'>
                     <img
-                    className='proyect__img'
-    /*                 src=
-                    alt= */
+                        className='proyect__img'
+                        src={require('../img/tremolo.png')}
+                        alt= 'Trémolo escuela de guitarra'
                     />
                     </a>
                     <p className='proyect__text'>Página publicitaria con sistema de inscripción online. Desplegada en vercel con dominio propio </p>
@@ -36,7 +36,7 @@ const Experience = () => {
                             <ProyectsRepo
                                 repository='https://github.com/ferutizi/tremolo-escuela-guitarra'
                                 deploy='https://www.tremoloescuela.com/'
-                                />
+                            />
                         </div>
                     </div>
                 </div>
