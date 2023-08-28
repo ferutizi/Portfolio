@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a2a86eaf.css",
-    "main.js": "/Portfolio/static/js/main.063cad76.js",
+    "main.css": "/Portfolio/static/css/main.dab21a1e.css",
+    "main.js": "/Portfolio/static/js/main.6cd7d514.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/tremolo.png": "/Portfolio/static/media/tremolo.0299ee7de922044aa636.png",
     "static/media/dog.jpg": "/Portfolio/static/media/dog.9fa3db58ab5c77ace66b.jpg",
     "static/media/exodo_off.png": "/Portfolio/static/media/exodo_off.31023b63a0ea2d0bef54.png",
     "static/media/exodo_on.png": "/Portfolio/static/media/exodo_on.a61932028cfe7988ecf3.png",
@@ -14,12 +15,12 @@
     "static/media/supermarket.jpg": "/Portfolio/static/media/supermarket.70d6c47a251592bda7e6.jpg",
     "static/media/calculator.jpg": "/Portfolio/static/media/calculator.b8e7e913586d4ddf12b7.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.a2a86eaf.css.map": "/Portfolio/static/css/main.a2a86eaf.css.map",
-    "main.063cad76.js.map": "/Portfolio/static/js/main.063cad76.js.map",
+    "main.dab21a1e.css.map": "/Portfolio/static/css/main.dab21a1e.css.map",
+    "main.6cd7d514.js.map": "/Portfolio/static/js/main.6cd7d514.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2a86eaf.css",
-    "static/js/main.063cad76.js"
+    "static/css/main.dab21a1e.css",
+    "static/js/main.6cd7d514.js"
   ]
 }
