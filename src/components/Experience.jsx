@@ -13,6 +13,7 @@ const Experience = () => {
                         className='proyect__img'
                         src={require('../img/tremolo.png')}
                         alt= 'Trémolo escuela de guitarra'
+                        style={{width: '21rem', height: '14rem'}}
                     />
                     </a>
                     <p className='proyect__text'>Página publicitaria con sistema de inscripción online. Desplegada en vercel con dominio propio </p>
