@@ -11,7 +11,7 @@ const Experience = () => {
                     <a href='https://www.tremoloescuela.com/' target='_blank' rel='noreferrer'>
                     <img
                         className='proyect__img'
-                        src={require('../img/tremolo.png')}
+                        src={require('../img/tremolo.jpg')}
                         alt= 'Trémolo escuela de guitarra'
                         style={{width: '21rem', height: '14rem'}}
                     />
@@ -20,17 +20,17 @@ const Experience = () => {
                     <div className='proyect__icons'>
                         <div className='proyect__icons--left'>
                             <Icon
-                                    className='icon'
-                                    src={require('../img/icons/react.png')}
-                                    alt='react'
-                                />
+                                className='icon'
+                                src={require('../img/icons/react.png')}
+                                alt='react'
+                            />
+                            <Icon
+                                src={require('../img/icons/react-router.png')}
+                                alt='react router'
+                            />
                             <Icon
                                 src={require('../img/icons/sass.png')}
                                 alt='sass'
-                            />
-                            <Icon
-                                src={require('../img/icons/void.png')}
-                                alt='void'
                             /> 
                         </div>
                         <div className='proyect__icons--right'>
