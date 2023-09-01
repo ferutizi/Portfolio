@@ -6,7 +6,7 @@ const Experience = () => {
         <section>
             <h3 id='experience' className='subtitle'>Experiencia</h3>
             <div className='proyect__container'>
-                <div className='proyect__card' style={{width: '50%', maxWidth: 'none'}}>
+                <div className='proyect__card' style={{maxWidth: '28.25rem'}}>
                     <h3 className='proyect__title'>Trémolo - Escuela de guitarra</h3>
                     <a href='https://www.tremoloescuela.com/' target='_blank' rel='noreferrer'>
                     <img
