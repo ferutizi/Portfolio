@@ -4,18 +4,20 @@
 .presentation__title {
     text-align: start; 
     h1 {
-        font-size: 48px;
+        font-size: 62px;
         margin: 0;
         color: $secondary;
         text-shadow: 3px 3px 6px $shadow;
     }
     .subtitle {
-        margin: 8px 0;
+        margin: 0;
         padding-top: 0;
+        font-size: 30px;
     }
     p {
         color: $whiteText2;
-        margin-top: 24px;
+        margin-top: 30px;
+        font-size: 18px;
     }
     span {
         color: $resaltedText;
@@ -23,15 +25,15 @@
 }
 
 .presentation__container {
-    max-width: 900px;
-    margin: 8rem auto;
+    max-width: 1200px;
+    margin: 4rem auto 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .exodo__off {
-    width: 19rem;
+    width: 20rem;
     height: auto;
     position: absolute;
     &:hover {
@@ -40,7 +42,7 @@
 }
 
 .exodo__on {
-    width: 19rem;
+    width: 20rem;
     height: auto;
 }
 
@@ -62,10 +64,19 @@
     }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .nav--group__presentation {
         display: none;
     }
+} */
+
+.nav--group__presentation {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: left;
+    margin-top: 0rem;
+    width: fit-content;
 }
 
 //Movile

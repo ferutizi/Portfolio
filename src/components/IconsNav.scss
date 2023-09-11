@@ -3,6 +3,7 @@
 
 .nav--icon {
     @include button-icon;
+    margin: 0;
     width: 30px;
     height: auto;
 }
