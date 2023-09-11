@@ -62,6 +62,10 @@
     .exodo__off {
         filter: opacity(0);
     }
+    .presentation__container {
+        margin: 0 2rem;
+        margin-top: 60px;
+    }
 }
 
 /* @media (min-width: 768px) {
@@ -83,12 +87,14 @@
 
 @media (max-width: 768px) {
     .presentation__container {
-        margin-top: 2rem;
+        margin: 0 2rem;
+        margin-top: 60px;
     }
     .presentation__title {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 2rem 2rem 2rem 0;
     }
     h1 {
         text-align: center;
@@ -120,7 +126,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 730px) {
     .presentation__container {
         max-width: 600px;
         display: flex;
