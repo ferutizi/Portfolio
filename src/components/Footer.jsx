@@ -8,11 +8,13 @@ const Footer = ({ cvOk, setCvOk }) => {
       <div className='footer__left'>
         <div className='icons__container'>
           <p className='footer__title'>Contáctame:</p>
-          <IconsNav cvOk={cvOk} setCvOk={setCvOk} />
+          <div className='nav--group__presentation'>
+            <IconsNav cvOk={cvOk} setCvOk={setCvOk} />
+          </div>
         </div>
       </div>
       <div className='footer__left'>
-        <div className='music__container'>
+        <div className='music__container nav--group__presentation' >
           <p className='footer__title'>Mi música:</p>
           <a href='https://open.spotify.com/album/78YcelOX3QzKN1Nr0VZro1?si=pZJ8LbgsSDKZpkRaLebjKw' target='_blank' rel='noreferrer'>
             <img className='nav--icon' src={require('../img/icons/music/spotify.png')} />

@@ -33,7 +33,7 @@
 }
 
 .exodo__off {
-    width: 20rem;
+    width: 22rem;
     height: auto;
     position: absolute;
     &:hover {
@@ -42,7 +42,7 @@
 }
 
 .exodo__on {
-    width: 20rem;
+    width: 22rem;
     height: auto;
 }
 
@@ -84,6 +84,11 @@
 @media (max-width: 768px) {
     .presentation__container {
         margin-top: 2rem;
+    }
+    .presentation__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     h1 {
         text-align: center;
