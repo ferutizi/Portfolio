@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.dab21a1e.css",
-    "main.js": "/Portfolio/static/js/main.dcc89cef.js",
+    "main.css": "/Portfolio/static/css/main.55d131e5.css",
+    "main.js": "/Portfolio/static/js/main.f234e110.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/exodo_off.png": "/Portfolio/static/media/exodo_off.d9d08672aeb40c5bb532.png",
+    "static/media/exodo_on.png": "/Portfolio/static/media/exodo_on.0a1f972c35149476b4bc.png",
     "static/media/dog.jpg": "/Portfolio/static/media/dog.9fa3db58ab5c77ace66b.jpg",
-    "static/media/exodo_off.png": "/Portfolio/static/media/exodo_off.31023b63a0ea2d0bef54.png",
-    "static/media/exodo_on.png": "/Portfolio/static/media/exodo_on.a61932028cfe7988ecf3.png",
     "static/media/tremolo.jpg": "/Portfolio/static/media/tremolo.6fdd39307d0bb2c4f3fd.jpg",
     "static/media/ecommerce.jpg": "/Portfolio/static/media/ecommerce.1a8ccfdc669c946c5c3f.jpg",
     "static/media/clima.jpg": "/Portfolio/static/media/clima.a28d556fd99c33cce5e4.jpg",
@@ -15,12 +15,12 @@
     "static/media/supermarket.jpg": "/Portfolio/static/media/supermarket.70d6c47a251592bda7e6.jpg",
     "static/media/calculator.jpg": "/Portfolio/static/media/calculator.b8e7e913586d4ddf12b7.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.dab21a1e.css.map": "/Portfolio/static/css/main.dab21a1e.css.map",
-    "main.dcc89cef.js.map": "/Portfolio/static/js/main.dcc89cef.js.map",
+    "main.55d131e5.css.map": "/Portfolio/static/css/main.55d131e5.css.map",
+    "main.f234e110.js.map": "/Portfolio/static/js/main.f234e110.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dab21a1e.css",
-    "static/js/main.dcc89cef.js"
+    "static/css/main.55d131e5.css",
+    "static/js/main.f234e110.js"
   ]
 }
