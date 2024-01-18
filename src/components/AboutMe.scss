@@ -4,12 +4,27 @@
 .about__text {
     color: $whiteText2;
     max-width: 900px;
-    text-align: center;
     margin: 0 auto;
+    float: left;
 }
 
 span {
     color: $resaltedText;
+}
+
+.frame--photo {
+    height: 16rem;
+    min-width: 16rem;
+    z-index: 2;
+    background-image: url(../img/fernando2.png);
+    shape-outside: circle();
+    background-position: -16px 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 4px solid $secondary;
+    position: relative;
+    float: left;
 }
 
 @media (max-width: 1024px) {
