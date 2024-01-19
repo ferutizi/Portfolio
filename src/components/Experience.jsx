@@ -6,14 +6,13 @@ const Experience = () => {
         <section>
             <h3 id='experience' className='subtitle'>Experiencia</h3>
             <div className='proyect__container'>
-                <div className='proyect__card' style={{maxWidth: '28.25rem'}}>
+                <div className='proyect__card--experience'>
                     <h3 className='proyect__title'>Trémolo - Escuela de guitarra</h3>
                     <a href='https://www.tremoloescuela.com/' target='_blank' rel='noreferrer'>
                     <img
-                        className='proyect__img'
-                        src={require('../img/tremolo.jpg')}
+                        className='proyect__img--experience'
+                        src={require('../img/tremolo.webp')}
                         alt= 'Trémolo escuela de guitarra'
-                        style={{width: '21rem', height: '14rem'}}
                     />
                     </a>
                     <p className='proyect__text'>Página publicitaria con sistema de inscripción online. Desplegada en vercel con dominio propio </p>
@@ -21,15 +20,15 @@ const Experience = () => {
                         <div className='proyect__icons--left'>
                             <Icon
                                 className='icon'
-                                src={require('../img/icons/react.png')}
+                                src={require('../img/icons/react.webp')}
                                 alt='react'
                             />
                             <Icon
-                                src={require('../img/icons/react-router.png')}
+                                src={require('../img/icons/react-router.webp')}
                                 alt='react router'
                             />
                             <Icon
-                                src={require('../img/icons/sass.png')}
+                                src={require('../img/icons/sass.webp')}
                                 alt='sass'
                             /> 
                         </div>

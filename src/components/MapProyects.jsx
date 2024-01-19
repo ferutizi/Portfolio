@@ -19,15 +19,15 @@ const MapProyecs = ({ mapProyect }) => {
           <div className='proyect__icons'>
             <div className='proyect__icons--left'>
               <Icon
-                src={require(`../img/icons/${item.icon1}.png`)}
+                src={require(`../img/icons/${item.icon1}.webp`)}
                 alt={item.icon1}
               />
               <Icon
-                src={require(`../img/icons/${item.icon2}.png`)}
+                src={require(`../img/icons/${item.icon2}.webp`)}
                 alt={item.icon2}
               />
               <Icon
-                src={require(`../img/icons/${item.icon3}.png`)}
+                src={require(`../img/icons/${item.icon3}.webp`)}
                 alt={{ item }.icon3}
               />
             </div>

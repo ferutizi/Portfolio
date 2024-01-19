@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Dogs Beeds",
-        "img": "dog.jpg",
+        "img": "dog.webp",
         "text": "Buscador de imagenes consumiendo una API",
         "icon1": "react",
         "icon2": "css",
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "title": "Ecommerce",
-        "img": "ecommerce.jpg",
+        "img": "ecommerce.webp",
         "text": "Aplicación de ecommerce, manejo del estado con Redux",
         "icon1": "react",
         "icon2": "redux",
@@ -24,7 +24,7 @@
     {
         "id": 3,
        "title": "Supermarket-list",
-        "img": "supermarket.jpg",
+        "img": "supermarket.webp",
         "text": "Lista de supermercado estilo to do, con base de datos MySQL y Spring Boot",
         "icon1": "react",
         "icon2": "sass",

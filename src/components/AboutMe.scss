@@ -41,6 +41,10 @@ hr {
 @media (max-width: 912px) {
     .about__container {
         max-width: 600px;
+        padding-left: 1rem;
+    }
+    .photo {
+        margin-bottom: 1rem;
     }
 }
 
@@ -48,16 +52,19 @@ hr {
     .about__container {
         max-width: 300px;
     }
+
     .about__container--mobile {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+
     .about__text {
         text-align: center;
         text-wrap: balance;
-        padding: 0;
         margin-top: 2rem;
     }
+
     .photo {
         margin: 0;
     }

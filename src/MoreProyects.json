@@ -2,7 +2,7 @@
     {
         "id": 4,
         "title": "Greydive Challenge",
-        "img": "greydive.jpg",
+        "img": "greydive.webp",
         "text": "Formulario y base de datos con Firebase. Unit Testing",
         "icon1": "react-router",
         "icon2": "firebase",
@@ -13,7 +13,7 @@
     {
         "id": 5,
         "title": "Small PDF page",
-        "img": "smallpdf.jpg",
+        "img": "smallpdf.webp",
         "text": "Página web estática",
         "icon1": "html",
         "icon2": "bootstrap",
@@ -24,7 +24,7 @@
     {
         "id": 6,
         "title": "Clima App",
-        "img": "clima.jpg",
+        "img": "clima.webp",
         "text": "Aplicación de clima consumiendo una API",
         "icon1": "react",
         "icon2": "sass",
@@ -35,7 +35,7 @@
     {
         "id": 7,
         "title": "Lista de regalos",
-        "img": "adviency.jpg",
+        "img": "adviency.webp",
         "text": "Adviency de navidad. Desarrollar la misma app por 23 días",
         "icon1": "react",
         "icon2": "sass",
@@ -46,7 +46,7 @@
     {
         "id": 8,
         "title": "Tic-Tac-Toe",
-        "img": "tic-tac-toe.jpg",
+        "img": "tic-tac-toe.webp",
         "text": "El famoso juego",
         "icon1": "react",
         "icon2": "css",
@@ -57,7 +57,7 @@
     {
         "id": 9,
         "title": "Interest calculator",
-        "img": "calculator.jpg",
+        "img": "calculator.webp",
         "text": "Calculadora de interés compuesto",
         "icon1": "react",
         "icon2": "css",

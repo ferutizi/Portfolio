@@ -5,7 +5,7 @@ const Tecnology = ({ tecnology, text }) => {
     <div className='tecnology'>
       <img
         className='proyect__icon'
-        src={require(`../img/icons/${tecnology}.png`)}
+        src={require(`../img/icons/${tecnology}.webp`)}
         alt={tecnology}
       />
       <p>{text}</p>

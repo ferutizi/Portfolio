@@ -17,13 +17,13 @@ const Footer = ({ cvOk, setCvOk }) => {
         <div className='music__container nav--group__presentation' >
           <p className='footer__title'>Mi música:</p>
           <a href='https://open.spotify.com/album/78YcelOX3QzKN1Nr0VZro1?si=pZJ8LbgsSDKZpkRaLebjKw' target='_blank' rel='noreferrer'>
-            <img className='nav--icon' src={require('../img/icons/music/spotify.png')} />
+            <img className='nav--icon' src={require('../img/icons/music/spotify.webp')} />
           </a>
           <a href='https://music.apple.com/us/album/%C3%A9xodo/1643574652' target='_blank' rel='noreferrer'>
-            <img className='nav--icon' src={require('../img/icons/music/applemusic.png')} />
+            <img className='nav--icon' src={require('../img/icons/music/applemusic.webp')} />
           </a>
           <a href='https://music.youtube.com/playlist?list=OLAK5uy_nnI9GNhkNa_-YiC-frK5rSaVmlhjk7Ym8' target='_blank' rel='noreferrer'>
-            <img className='nav--icon' src={require('../img/icons/music/ytmusic.png')} />
+            <img className='nav--icon' src={require('../img/icons/music/ytmusic.webp')} />
           </a>
         </div>
       </div>

@@ -6,43 +6,44 @@
     },
     {
         "id": 2,
-        "tecnology": "redux",
-        "text": "Redux"
+        "tecnology": "next",
+        "text": "Next.js"
     },
     {
         "id": 3,
-        "tecnology": "react-router",
-        "text": "React Router"
+        "tecnology": "tailwindcss",
+        "text": "Tailwind CSS"
     },
     {
         "id": 4,
-        "tecnology": "testing-library",
-        "text": "Testing Library"
-    },
-    {
-        "id": 5,
-        "tecnology": "css",
-        "text": "CSS"
-    },
-    {
-        "id": 6,
-        "tecnology": "sass",
-        "text": "SASS"
-    },
-    {
-        "id": 7,
-        "tecnology": "bootstrap",
-        "text": "Bootstrap"
-    },
-    {
-        "id": 8,
         "tecnology": "js",
         "text": "JavaScript"
     },
     {
-        "id": 9,
+        "id": 5,
         "tecnology": "html",
         "text": "HTML"
+    },
+    {
+        "id": 6,
+        "tecnology": "css",
+        "text": "CSS"
+    },
+    {
+        "id": 7,
+        "tecnology": "typescript",
+        "text": "TypesCript"
+    },
+    {
+        "id": 8,
+        "tecnology": "bootstrap",
+        "text": "Bootstrap"
+
+    },
+    {
+        "id": 9,
+        "tecnology": "sass",
+        "text": "SASS"
     },
     {
         "id": 10,
@@ -58,5 +59,20 @@
         "id": 12,
         "tecnology": "mySQL",
         "text": "MySQL"
+    },
+    {
+        "id": 13,
+        "tecnology": "redux",
+        "text": "Redux"
+    },
+    {
+        "id": 14,
+        "tecnology": "react-router",
+        "text": "React Router"
+    },
+    {
+        "id": 15,
+        "tecnology": "testing-library",
+        "text": "Testing Library"
     }
 ]
