@@ -1,34 +1,64 @@
 @import '../scss/variables';
 @import '../scss/mixins';
 
+.about__container {
+   display: flex;
+   max-width: 900px;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   position: relative
+}
+
 .about__text {
     color: $whiteText2;
-    max-width: 900px;
-    margin: 0 auto;
-    float: left;
+    text-wrap: balance;
+    text-align: left;
+    padding-right: 1rem;
 }
 
 span {
     color: $resaltedText;
 }
 
-.frame--photo {
-    height: 16rem;
-    min-width: 16rem;
-    z-index: 2;
-    background-image: url(../img/fernando2.png);
-    shape-outside: circle();
-    background-position: -16px 16px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    border: 4px solid $secondary;
-    position: relative;
-    float: left;
+hr {
+    visibility: hidden;
 }
 
-@media (max-width: 1024px) {
+.photo {
+    width: 16rem;
+    height: 16rem;
+    float: left;
+    shape-outside: circle(50%);
+    border-radius: 50%;
+    border: 0.25rem solid $secondary;
+    object-fit: cover;
+    object-position: -16px 16px;
+    margin-right: 4rem;
+    margin-top: 1.38rem;
+}
+
+@media (max-width: 912px) {
+    .about__container {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about__container {
+        max-width: 300px;
+    }
+    .about__container--mobile {
+        display: flex;
+        flex-direction: column;
+    }
     .about__text {
-        padding: 0 4rem;
+        text-align: center;
+        text-wrap: balance;
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .photo {
+        margin: 0;
     }
 }
