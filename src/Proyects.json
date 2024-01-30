@@ -12,24 +12,24 @@
     },
     {
         "id": 2,
-        "title": "Ecommerce",
-        "img": "ecommerce.webp",
-        "text": "Aplicación de ecommerce, manejo del estado con Redux",
-        "icon1": "react",
-        "icon2": "redux",
-        "icon3": "sass",
-        "repository": "https://github.com/ferutizi/e-commerce",
-        "deploy": "https://ferutizi.github.io/e-commerce/"
+        "title": "Easy Pomodoro",
+        "img": "pomodoro.webp",
+        "text": "Temporizador de la técnica pomodoro, configurable en minutos, temas de color y alarma sonora",
+        "icon1": "next",
+        "icon2": "tailwindcss",
+        "icon3": "typescript",
+        "repository": "https://github.com/ferutizi/easy-pomodoro",
+        "deploy": "https://easy-pomodoro-one.vercel.app/"
     },
     {
         "id": 3,
-       "title": "Supermarket-list",
-        "img": "supermarket.webp",
-        "text": "Lista de supermercado estilo to do, con base de datos MySQL y Spring Boot",
+        "title": "Lista de regalos",
+        "img": "adviency.webp",
+        "text": "Adviency de navidad. Desarrollar la misma app por 23 días",
         "icon1": "react",
         "icon2": "sass",
-        "icon3":"mySQL",
-        "repository": "https://github.com/ferutizi/supermarket-list",
-        "deploy": "https://ferutizi.github.io/supermarket-list/"
+        "icon3": "void",
+        "repository": "https://github.com/ferutizi/adviency-2022",
+        "deploy": "https://ferutizi.github.io/adviency-2022/"
     }
 ]

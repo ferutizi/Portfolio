@@ -12,6 +12,17 @@
     },
     {
         "id": 5,
+        "title": "Ecommerce",
+        "img": "ecommerce.webp",
+        "text": "Aplicación de ecommerce, manejo del estado con Redux",
+        "icon1": "react",
+        "icon2": "redux",
+        "icon3": "sass",
+        "repository": "https://github.com/ferutizi/e-commerce",
+        "deploy": "https://ferutizi.github.io/e-commerce/"
+    },
+    {
+        "id": 6,
         "title": "Small PDF page",
         "img": "smallpdf.webp",
         "text": "Página web estática",
@@ -22,7 +33,7 @@
         "deploy": "https://ferutizi.github.io/smallPDF-page/"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Clima App",
         "img": "clima.webp",
         "text": "Aplicación de clima consumiendo una API",
@@ -33,18 +44,18 @@
         "deploy": "https://ferutizi.github.io/clima-app/"
     },
     {
-        "id": 7,
-        "title": "Lista de regalos",
-        "img": "adviency.webp",
-        "text": "Adviency de navidad. Desarrollar la misma app por 23 días",
+        "id": 8,
+        "title": "Supermarket-list",
+        "img": "supermarket.webp",
+        "text": "Lista de supermercado estilo to do, con base de datos MySQL y Spring Boot",
         "icon1": "react",
         "icon2": "sass",
-        "icon3": "void",
-        "repository": "https://github.com/ferutizi/adviency-2022",
-        "deploy": "https://ferutizi.github.io/adviency-2022/"
+        "icon3":"mySQL",
+        "repository": "https://github.com/ferutizi/supermarket-list",
+        "deploy": "https://ferutizi.github.io/supermarket-list/"
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "Tic-Tac-Toe",
         "img": "tic-tac-toe.webp",
         "text": "El famoso juego",
@@ -53,16 +64,5 @@
         "icon3": "void",
         "repository": "https://github.com/ferutizi/tic-tac-toe",
         "deploy": "https://ferutizi.github.io/tic-tac-toe/"
-    },
-    {
-        "id": 9,
-        "title": "Interest calculator",
-        "img": "calculator.webp",
-        "text": "Calculadora de interés compuesto",
-        "icon1": "react",
-        "icon2": "css",
-        "icon3": "void",
-        "repository": "https://github.com/ferutizi/calculadora-Interes-compuesto-react",
-        "deploy": "https://ferutizi.github.io/calculadora-Interes-compuesto-react/"
     }
 ]
