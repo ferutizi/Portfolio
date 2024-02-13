@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8cc44f43.css",
-    "main.js": "/Portfolio/static/js/main.9e9ab893.js",
+    "main.js": "/Portfolio/static/js/main.c812b68e.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/exodo_on.webp": "/Portfolio/static/media/exodo_on.ff92fe20d8332c97766a.webp",
     "static/media/exodo_off.webp": "/Portfolio/static/media/exodo_off.c8f6b537ac09bde35a81.webp",
@@ -43,11 +43,11 @@
     "static/media/tailwindcss.webp": "/Portfolio/static/media/tailwindcss.1728d291cc7a4244c1c9.webp",
     "static/media/void.webp": "/Portfolio/static/media/void.278120665674846985a6.webp",
     "main.8cc44f43.css.map": "/Portfolio/static/css/main.8cc44f43.css.map",
-    "main.9e9ab893.js.map": "/Portfolio/static/js/main.9e9ab893.js.map",
+    "main.c812b68e.js.map": "/Portfolio/static/js/main.c812b68e.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cc44f43.css",
-    "static/js/main.9e9ab893.js"
+    "static/js/main.c812b68e.js"
   ]
 }
