@@ -31,38 +31,5 @@
         "icon3": "void",
         "repository": "https://github.com/ferutizi/smallPDF-page",
         "deploy": "https://ferutizi.github.io/smallPDF-page/"
-    },
-    {
-        "id": 7,
-        "title": "Clima App",
-        "img": "clima.webp",
-        "text": "Aplicación de clima consumiendo una API",
-        "icon1": "react",
-        "icon2": "sass",
-        "icon3": "void",
-        "repository": "https://github.com/ferutizi/clima-app",
-        "deploy": "https://ferutizi.github.io/clima-app/"
-    },
-    {
-        "id": 8,
-        "title": "Supermarket-list",
-        "img": "supermarket.webp",
-        "text": "Lista de supermercado estilo to do, con base de datos MySQL y Spring Boot",
-        "icon1": "react",
-        "icon2": "sass",
-        "icon3":"mySQL",
-        "repository": "https://github.com/ferutizi/supermarket-list",
-        "deploy": "https://ferutizi.github.io/supermarket-list/"
-    },
-    {
-        "id": 9,
-        "title": "Tic-Tac-Toe",
-        "img": "tic-tac-toe.webp",
-        "text": "El famoso juego",
-        "icon1": "react",
-        "icon2": "css",
-        "icon3": "void",
-        "repository": "https://github.com/ferutizi/tic-tac-toe",
-        "deploy": "https://ferutizi.github.io/tic-tac-toe/"
     }
 ]
