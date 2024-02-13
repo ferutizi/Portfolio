@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Dogs Beeds",
+        "title": "Dogs Breeds",
         "img": "dog.webp",
         "text": "Buscador de imagenes consumiendo una API",
         "icon1": "react",
