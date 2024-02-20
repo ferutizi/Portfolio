@@ -15,8 +15,10 @@ const Experience = () => {
                         alt= 'Trémolo escuela de guitarra'
                     />
                     </a>
-                    <div className='details__container'>     
-                        <h3 className='experience__title'>Trémolo - Escuela de guitarra</h3>
+                    <div className='details__container'>    
+                        <a href='https://www.tremoloescuela.com/' target='_blank' rel='noreferrer'>
+                            <h3 className='experience__title'>Trémolo - Escuela de guitarra</h3>
+                        </a> 
                         <p className='experience__text'>
                             Página publicitaria con sistema de inscripción online, diseño
                             propio y paginación con React Router. Implementación de google maps. 
