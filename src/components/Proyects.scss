@@ -52,7 +52,7 @@
 
 .proyect__card {
     @include style-proyect;
-    padding: 15px 2px;
+    padding: 15px 0;
     max-width: 17rem;
     background-color: $primary;
     border-radius: 10px;
@@ -105,6 +105,10 @@
     }
     .more-proyects {
         max-width: 600px;
+    }
+    .proyect__img {
+        filter: none;
+        opacity: 1;
     }
 }
 
