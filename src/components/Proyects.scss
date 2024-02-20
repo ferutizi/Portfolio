@@ -13,7 +13,9 @@
 
 .proyect__title {
     color: $secondary;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-size: 1.25rem;
 }
 
 .proyect__img {
@@ -27,6 +29,10 @@
     opacity: 0.85; 
     border: 2px solid rgba(0,0,0,0);
     object-fit: cover;
+}
+
+.proyect__text {
+    padding: 5px 5px;
 }
 
 .more-proyects {
@@ -46,6 +52,7 @@
 
 .proyect__card {
     @include style-proyect;
+    padding: 15px 2px;
     max-width: 17rem;
     background-color: $primary;
     border-radius: 10px;
@@ -68,18 +75,24 @@
 .proyect__icon {
     display: flex;
     align-items: center;
-    width: 18px;
+    width: 22px;
     height: auto;
-    margin: 8px 10px;
+    margin: 8px 8px;
     filter: drop-shadow(2px 2px 4px $shadow);
+}
+
+.icon {
+    width: 22px !important;
+    height: 22px !important;
 }
 
 .proyect__icons {
     display: flex;
+    padding: 0 10px;
+    width: 90%;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    gap: 2rem;
+    justify-content: space-between;
     filter: drop-shadow(2px 2px 4px $shadow);
 }
 
