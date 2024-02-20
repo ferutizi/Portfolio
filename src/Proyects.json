@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "title": "Dogs Breeds",
-        "img": "dog.webp",
-        "text": "Buscador de imagenes consumiendo una API",
-        "icon1": "react",
-        "icon2": "css",
-        "icon3": "void",
-        "repository": "https://github.com/ferutizi/dog-app",
-        "deploy": "https://ferutizi.github.io/dog-app/"
+        "title": "Food recipes",
+        "img": "recipes.webp",
+        "text": "Buscador de recetas con Next.js consumiendo la API TheMealDB. Paginación, instruccioens y video disponibles",
+        "icon1": "next",
+        "icon2": "tailwindcss",
+        "icon3": "typescript",
+        "repository": "https://github.com/ferutizi/food-recipes-app",
+        "deploy": "https://food-recipes-opal.vercel.app/"
     },
     {
         "id": 2,
@@ -23,13 +23,13 @@
     },
     {
         "id": 3,
-        "title": "Lista de regalos",
-        "img": "adviency.webp",
-        "text": "Adviency de navidad. Desarrollar la misma app por 23 días",
+        "title": "Dogs Breeds",
+        "img": "dog.webp",
+        "text": "Buscador de imagenes consumiendo la API Dog-API. Con sistema de favoritos usando local storage",
         "icon1": "react",
-        "icon2": "sass",
-        "icon3": "void",
-        "repository": "https://github.com/ferutizi/adviency-2022",
-        "deploy": "https://ferutizi.github.io/adviency-2022/"
+        "icon2": "css",
+        "icon3": "js",
+        "repository": "https://github.com/ferutizi/dog-app",
+        "deploy": "https://ferutizi.github.io/dog-app/"
     }
 ]
