@@ -1,48 +1,48 @@
 [
     {
         "id": 1,
-        "tecnology": "react",
+        "tecnology": "React",
         "text": "React"
     },
     {
         "id": 2,
-        "tecnology": "next",
+        "tecnology": "NextJS",
         "text": "Next.js"
     },
     {
         "id": 3,
-        "tecnology": "tailwindcss",
+        "tecnology": "Tailwind CSS",
         "text": "Tailwind CSS"
     },
     {
         "id": 4,
-        "tecnology": "js",
+        "tecnology": "JavaScript",
         "text": "JavaScript"
     },
     {
         "id": 5,
-        "tecnology": "html",
+        "tecnology": "HTML",
         "text": "HTML"
     },
     {
         "id": 6,
-        "tecnology": "css",
+        "tecnology": "CSS",
         "text": "CSS"
     },
     {
         "id": 7,
-        "tecnology": "typescript",
+        "tecnology": "TypeScript",
         "text": "TypesCript"
     },
     {
         "id": 8,
-        "tecnology": "bootstrap",
+        "tecnology": "Bootstrap",
         "text": "Bootstrap"
 
     },
     {
         "id": 9,
-        "tecnology": "sass",
+        "tecnology": "Sass",
         "text": "SASS"
     },
     {
@@ -52,27 +52,27 @@
     },
     {
         "id": 11,
-        "tecnology": "firebase",
+        "tecnology": "Firebase",
         "text": "Firebase"
     },
     {
         "id": 12,
-        "tecnology": "mySQL",
+        "tecnology": "MySQL",
         "text": "MySQL"
     },
     {
         "id": 13,
-        "tecnology": "redux",
+        "tecnology": "Redux",
         "text": "Redux"
     },
     {
         "id": 14,
-        "tecnology": "react-router",
+        "tecnology": "React Router",
         "text": "React Router"
     },
     {
         "id": 15,
-        "tecnology": "testing-library",
+        "tecnology": "Testing Library",
         "text": "Testing Library"
     }
 ]

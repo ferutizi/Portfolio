@@ -27,16 +27,16 @@ const Experience = () => {
                         <div className='experience__icons'>
                             <div className='experience__icons--left'>
                                 <Icon
-                                    src={require('../img/icons/react.webp')}
-                                    alt='react'
+                                    src={require('../img/icons/React.webp')}
+                                    alt='React'
                                 />
                                 <Icon
-                                    src={require('../img/icons/react-router.webp')}
-                                    alt='react router'
+                                    src={require('../img/icons/React Router.webp')}
+                                    alt='React Router'
                                 />
                                 <Icon
-                                    src={require('../img/icons/sass.webp')}
-                                    alt='sass'
+                                    src={require('../img/icons/Sass.webp')}
+                                    alt='Sass'
                                 /> 
                             </div>
                             <div className='proyect__icons--right'>

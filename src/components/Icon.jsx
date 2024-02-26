@@ -4,6 +4,7 @@ const Icon = ({ src, alt }) => {
       className='proyect__icon'
       src={src}
       alt={alt}
+      title={alt}
     />
   )
 }

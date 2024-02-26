@@ -30,7 +30,7 @@ const MapProyecs = ({ mapProyect }) => {
               />
               <Icon
                 src={require(`../img/icons/${item.icon3}.webp`)}
-                alt={{ item }.icon3}
+                alt={item.icon3}
               />
             </div>
             <div className='proyect__icons--right'>
