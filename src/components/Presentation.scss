@@ -40,8 +40,9 @@
     width: 22rem;
     height: auto;
     position: absolute;
+    transition: all ease-in-out 0.3s;
     &:hover {
-        filter: opacity(0);
+        opacity: 0;
     }
 }
 
@@ -52,19 +53,19 @@
 
 .nav--cv {
     &:hover {
-        filter: opacity(0);
+        opacity: 0;
     }
 }
 
 .nav--cv__ok {
     &:hover {
-        filter: opacity(0);
+        opacity: 0;
     }
 }
 
 @media (max-width: 912px) {
     .exodo__off {
-        filter: opacity(0);
+        opacity: 0;
     }
     .presentation__container {
         margin: 0 2rem;

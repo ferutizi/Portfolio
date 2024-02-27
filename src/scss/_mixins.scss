@@ -15,12 +15,14 @@
     display: flex;
     align-content: center;
     margin: 0 10px;
+    transition: all ease-in-out 0.3s;
     cursor: pointer;
     filter: drop-shadow(2px 2px 4px #000);
     &:hover {
         filter: brightness(0) saturate(100%) invert(57%) sepia(100%) 
                 saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%)
                 drop-shadow(2px 2px 4px #000);
+        -webkit-filter: brightness(0) saturate(100%) invert(57%) sepia(100%) saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%) drop-shadow(2px 2px 4px #000);
     }
 }
 
@@ -35,6 +37,7 @@
     box-shadow: 2px 2px 5px #000;
     font-weight: 700;
     cursor: pointer;
+    transition: all ease-in-out 0.3s;
 
     &:hover {
         background-color: hsl(25, 100%, 52%);

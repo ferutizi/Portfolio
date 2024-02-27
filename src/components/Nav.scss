@@ -47,6 +47,7 @@
         text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
         font-size: 1rem;
         text-decoration: none;
+        transition: all ease-in-out 0.3s;
         &:hover {
             color: $secondary;
             border-color: $secondary;
