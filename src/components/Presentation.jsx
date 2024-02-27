@@ -4,8 +4,10 @@ const Presentation = ({ cvOk, setCvOk }) => {
   return (
     <section className='presentation__container'>
       <div className='presentation__title'>
-        <h1>Fernando Utizi</h1>
-        <h2 className='subtitle'>Front-end Developer</h2>
+        <div className='presentation__subtitle'>
+          <h1>Fernando Utizi</h1>
+          <h2 className='subtitle'>Front-end Developer</h2>
+        </div>
         <p>Soy un apasionado de la <span> tecnología</span>, <br />
           la <span> creatividad</span> y el<span> aprendizaje</span>
         </p>

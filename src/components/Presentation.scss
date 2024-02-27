@@ -2,9 +2,13 @@
 @import '../scss/mixins';
 
 .presentation__title {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     text-align: start; 
     h1 {
-        font-size: 62px;
+        font-size: 4rem;
+        line-height: 3.25rem;
         margin: 0;
         color: $secondary;
         text-shadow: 3px 3px 6px $shadow;
@@ -12,12 +16,12 @@
     .subtitle {
         margin: 0;
         padding-top: 0;
-        font-size: 30px;
+        font-size: 2rem;
     }
     p {
         color: $whiteText2;
-        margin-top: 30px;
-        font-size: 18px;
+        font-size: 1.25rem;
+        margin: 0;
     }
     span {
         color: $resaltedText;
@@ -25,11 +29,11 @@
 }
 
 .presentation__container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 4rem auto 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .exodo__off {
