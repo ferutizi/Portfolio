@@ -5,7 +5,8 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    text-align: start; 
+    text-align: start;
+
     h1 {
         font-size: 4rem;
         line-height: 3.25rem;
@@ -13,16 +14,19 @@
         color: $secondary;
         text-shadow: 3px 3px 6px $shadow;
     }
+
     .subtitle {
         margin: 0;
         padding-top: 0;
         font-size: 2rem;
     }
+
     p {
         color: $whiteText2;
         font-size: 1.25rem;
         margin: 0;
     }
+
     span {
         color: $resaltedText;
     }
@@ -41,6 +45,7 @@
     height: auto;
     position: absolute;
     transition: all ease-in-out 0.3s;
+
     &:hover {
         opacity: 0;
     }
@@ -67,6 +72,7 @@
     .exodo__off {
         opacity: 0;
     }
+
     .presentation__container {
         margin: 0 2rem;
         margin-top: 60px;
@@ -95,25 +101,32 @@
         margin: 0 2rem;
         margin-top: 60px;
     }
+
     .presentation__title {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 2rem 2rem 2rem 0;
     }
+
     h1 {
         text-align: center;
     }
+
     .subtitle {
         text-align: center;
     }
+
     p {
         text-align: center;
     }
-    .exodo__on, .exodo__off {
+
+    .exodo__on,
+    .exodo__off {
         margin-top: 4rem;
+        mask-image: linear-gradient(black 90%, transparent);
     }
-    
+
     //NAV
     .nav--group__presentation {
         display: flex;
@@ -121,6 +134,7 @@
         justify-content: center;
         margin: 0 1rem,
     }
+
     .nav--icon {
         height: auto;
         display: flex;
@@ -137,7 +151,9 @@
         display: flex;
         flex-direction: column;
     }
-    .exodo__on, .exodo__off {
+
+    .exodo__on,
+    .exodo__off {
         width: 15rem;
     }
 }
