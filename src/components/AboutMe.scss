@@ -2,12 +2,12 @@
 @import '../scss/mixins';
 
 .about__container {
-   display: flex;
-   max-width: 900px;
-   justify-content: center;
-   align-content: center;
-   align-items: center;
-   position: relative
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative
 }
 
 .about__text {
@@ -43,6 +43,7 @@ hr {
         max-width: 600px;
         padding-left: 1rem;
     }
+
     .photo {
         margin-bottom: 1rem;
     }

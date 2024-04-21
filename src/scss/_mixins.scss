@@ -18,10 +18,9 @@
     transition: all ease-in-out 0.3s;
     cursor: pointer;
     filter: drop-shadow(2px 2px 4px #000);
+
     &:hover {
-        filter: brightness(0) saturate(100%) invert(57%) sepia(100%) 
-                saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%)
-                drop-shadow(2px 2px 4px #000);
+        filter: brightness(0) saturate(100%) invert(57%) sepia(100%) saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%) drop-shadow(2px 2px 4px #000);
         -webkit-filter: brightness(0) saturate(100%) invert(57%) sepia(100%) saturate(980%) hue-rotate(335deg) brightness(100%) contrast(103%) drop-shadow(2px 2px 4px #000);
     }
 }
@@ -42,7 +41,7 @@
     &:hover {
         background-color: hsl(25, 100%, 52%);
     }
-    
+
     &:active {
         background-color: hsl(25, 100%, 58%);
         box-shadow: none;
@@ -59,7 +58,7 @@
 
 @mixin form-input {
     color: #fefefe;
-    border: 1px solid black ;
+    border: 1px solid black;
     outline: none;
     border-radius: 2px;
     padding-left: 1rem;

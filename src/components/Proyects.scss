@@ -26,8 +26,8 @@
     box-shadow: 4px 4px 8px black;
     filter: sepia(0.8) hue-rotate(346deg);
     transition: none;
-    opacity: 0.85; 
-    border: 2px solid rgba(0,0,0,0);
+    opacity: 0.85;
+    border: 2px solid rgba(0, 0, 0, 0);
     object-fit: cover;
 }
 
@@ -60,11 +60,13 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 3px 3px 6px $shadow;
-    border: 1px solid rgba(0,0,0,0);
+    border: 1px solid rgba(0, 0, 0, 0);
     transition: all ease-in-out 0.3s;
+
     &:hover {
         border: 1px solid $secondary;
         transform: scale(1.03);
+
         .proyect__img {
             filter: none;
             cursor: pointer;
@@ -104,9 +106,11 @@
     .proyect__container {
         max-width: 600px;
     }
+
     .more-proyects {
         max-width: 600px;
     }
+
     .proyect__img {
         filter: none;
         opacity: 1;
@@ -117,6 +121,7 @@
     .proyect__container {
         max-width: 300px;
     }
+
     .more-proyects {
         max-width: 300px;
     }

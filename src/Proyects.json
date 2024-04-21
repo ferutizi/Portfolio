@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "title": "Food recipes",
-        "img": "recipes.webp",
-        "text": "Buscador de recetas con Next.js consumiendo la API TheMealDB. Paginación, instruccioens y video disponibles",
+        "title": "Supermarket-shop",
+        "img": "supermarket.webp",
+        "text": "Clon de la sección de compras del juego \"Supermarket Simulator\". Manejo del estado usando Zustand. Diseño responsive propio. Se uso Google Sheets como base de datos",
         "icon1": "NextJS",
-        "icon2": "Tailwind CSS",
-        "icon3": "TypeScript",
-        "repository": "https://github.com/ferutizi/food-recipes-app",
-        "deploy": "https://food-recipes-opal.vercel.app/"
+        "icon2": "TypeScript",
+        "icon3": "Tailwind CSS",
+        "repository": "https://github.com/ferutizi/supermarket-simulator-shop",
+        "deploy": "https://supermarket-simulator-shop-mu.vercel.app/"
     },
     {
         "id": 2,
@@ -23,13 +23,13 @@
     },
     {
         "id": 3,
-        "title": "Dogs Breeds",
-        "img": "dog.webp",
-        "text": "Buscador de imagenes consumiendo la API Dog-API. Con sistema de favoritos usando local storage",
-        "icon1": "React",
-        "icon2": "CSS",
-        "icon3": "JavaScript",
-        "repository": "https://github.com/ferutizi/dog-app",
-        "deploy": "https://ferutizi.github.io/dog-app/"
+        "title": "Food recipes",
+        "img": "recipes.webp",
+        "text": "Buscador de recetas con Next.js consumiendo la API TheMealDB. Paginación, instruccioens y video disponibles",
+        "icon1": "NextJS",
+        "icon2": "Tailwind CSS",
+        "icon3": "TypeScript",
+        "repository": "https://github.com/ferutizi/food-recipes-app",
+        "deploy": "https://food-recipes-opal.vercel.app/"
     }
 ]

@@ -3,26 +3,26 @@ import ProyectsRepo from "./ProyectsRepo"
 import Icon from "./Icon"
 
 const Experience = () => {
-    return(
+    return (
         <section>
             <h3 className='subtitle'>Experiencia</h3>
             <div className='experience__container'>
                 <div className='experience__card'>
                     <a href='https://www.tremoloescuela.com/' target='_blank' rel='noreferrer'>
-                    <img
-                        className='experience__img'
-                        src={require('../img/tremolo.webp')}
-                        alt= 'Trémolo escuela de guitarra'
-                    />
+                        <img
+                            className='experience__img'
+                            src={require('../img/tremolo.webp')}
+                            alt='Trémolo escuela de guitarra'
+                        />
                     </a>
-                    <div className='details__container'>    
+                    <div className='details__container'>
                         <a href='https://www.tremoloescuela.com/' target='_blank' rel='noreferrer'>
                             <h3 className='experience__title'>Trémolo - Escuela de guitarra</h3>
-                        </a> 
+                        </a>
                         <p className='experience__text'>
                             Página publicitaria con sistema de inscripción online, diseño
-                            propio y paginación con React Router. Implementación de google maps. 
-                            Desplegada en vercel con dominio propio 
+                            propio y paginación con React Router. Implementación de google maps.
+                            Desplegada en vercel con dominio propio
                         </p>
                         <div className='experience__icons'>
                             <div className='experience__icons--left'>
@@ -37,7 +37,7 @@ const Experience = () => {
                                 <Icon
                                     src={require('../img/icons/Sass.webp')}
                                     alt='Sass'
-                                /> 
+                                />
                             </div>
                             <div className='proyect__icons--right'>
                                 <ProyectsRepo

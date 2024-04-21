@@ -27,8 +27,19 @@
     padding: 2rem;
     box-shadow: 3px 3px 6px 4px $shadow;
     border-radius: 10px;
-    :focus { border: 1px solid $secondary };
-    ::placeholder { color: $whiteText2 };
+
+    :focus {
+        border: 1px solid $secondary
+    }
+
+    ;
+
+    ::placeholder {
+        color: $whiteText2
+    }
+
+    ;
+
     input {
         @include form-input;
         background-color: $background;
@@ -38,9 +49,11 @@
 .input__row {
     display: flex;
     margin-bottom: 2rem;
+
     input {
         width: 50%;
     }
+
     .input__div {
         width: 1rem;
     }
@@ -65,7 +78,7 @@ input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px $background inset;
-            box-shadow: 0 0 0 1000px $background inset;
+    box-shadow: 0 0 0 1000px $background inset;
     -webkit-text-fill-color: #fefefe;
 }
 
@@ -77,19 +90,24 @@ select:-webkit-autofill {
         justify-content: center;
         margin: 0 auto;
     }
+
     .form {
         width: 200px;
         margin-bottom: 4rem;
-        input, textarea {
+
+        input,
+        textarea {
             width: 200px;
             margin-bottom: 2rem;
         }
     }
+
     .input__row {
         display: grid;
         margin: 0;
         grid-template-columns: 1fr;
     }
+
     .form__errors {
         top: -1.8rem;
         right: -1.05rem;

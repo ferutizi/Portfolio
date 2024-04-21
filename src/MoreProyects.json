@@ -1,35 +1,35 @@
 [
     {
         "id": 4,
-        "title": "Greydive Challenge",
-        "img": "greydive.webp",
-        "text": "Formulario y base de datos con Firebase. Unit Testing",
-        "icon1": "React Router",
-        "icon2": "Firebase",
-        "icon3": "Testing Library",
-        "repository": "https://github.com/ferutizi/greydive-challenge",
-        "deploy": "https://ferutizi.github.io/greydive-challenge/"
+        "title": "Simon - Memory Game",
+        "img": "simon.webp",
+        "text": "Juego de memoria con sonido personalizado y local storage para guardar la puntuación",
+        "icon1": "NextJS",
+        "icon2": "TypeScript",
+        "icon3": "CSS",
+        "repository": "https://github.com/ferutizi/simon-game",
+        "deploy": "https://simon-game-pi-eight.vercel.app/"
     },
     {
         "id": 5,
-        "title": "Ecommerce",
-        "img": "ecommerce.webp",
-        "text": "Aplicación de ecommerce, manejo del estado con Redux",
+        "title": "Dogs Breeds",
+        "img": "dog.webp",
+        "text": "Buscador de imagenes consumiendo la API Dog-API. Con sistema de favoritos usando local storage",
         "icon1": "React",
-        "icon2": "Redux",
-        "icon3": "Sass",
-        "repository": "https://github.com/ferutizi/e-commerce",
-        "deploy": "https://ferutizi.github.io/e-commerce/"
+        "icon2": "CSS",
+        "icon3": "JavaScript",
+        "repository": "https://github.com/ferutizi/dog-app",
+        "deploy": "https://ferutizi.github.io/dog-app/"
     },
     {
         "id": 6,
-        "title": "Small PDF page",
-        "img": "smallpdf.webp",
-        "text": "Página web estática, copiando los estilos de smallpdf.com",
-        "icon1": "HTML",
-        "icon2": "Bootstrap",
-        "icon3": "void",
-        "repository": "https://github.com/ferutizi/smallPDF-page",
-        "deploy": "https://ferutizi.github.io/smallPDF-page/"
+        "title": "Space Tourism",
+        "img": "space.webp",
+        "text": "Desafío de Frontend Mentor con paginación y responsive siguiendo un diseño de Figma proporcionado",
+        "icon1": "NextJS",
+        "icon2": "TypeScript",
+        "icon3": "Tailwind CSS",
+        "repository": "https://github.com/ferutizi/space-tourism",
+        "deploy": "https://space-tourism-steel-one.vercel.app/"
     }
 ]

@@ -9,7 +9,7 @@ import Form from './components/Form'
 import AboutMe from './components/AboutMe'
 import Experience from './components/Experience'
 
-function App () {
+function App() {
   const [cvOk, setCvOk] = useState(false)
   return (
     <div className='App' id='home'>
