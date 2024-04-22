@@ -2,7 +2,7 @@ import './AboutMe.scss'
 
 const AboutMe = () => {
   return (
-    <section style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <section style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <h3 className='subtitle' id='about-me'>Sobre mí</h3>
       <div className='about__container'>
         <article className='about__container--mobile'>
